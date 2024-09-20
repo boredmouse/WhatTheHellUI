@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080">
+  <displayList>
+    <graph id="n0_hlmx" name="n0" xy="-290,-210" size="2500,1500" type="rect" lineSize="0" lineColor="#80000000" fillColor="#80000000"/>
+    <text id="n1_hlmx" name="n1" xy="120,80" size="64,42" fontSize="30" color="#ffffff" text="背包"/>
+  </displayList>
+</component>

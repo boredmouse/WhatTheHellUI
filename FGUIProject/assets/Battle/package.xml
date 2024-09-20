@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="68x10utg">
+  <resources>
+    <component id="hlmx0" name="BattleView.xml" path="/Component/" exported="true"/>
+    <component id="hlmx1" name="BattleConfigView.xml" path="/Component/" exported="true"/>
+    <component id="hlmx2" name="ScreenContrlTipComponent.xml" path="/Component/subView/"/>
+    <image id="hlmx4" name="keyB.png" path="/Res/"/>
+    <image id="hlmx5" name="MouseLeftBtn.png" path="/Res/"/>
+    <image id="hlmx6" name="MouseRightBtn.png" path="/Res/"/>
+    <image id="hlmx7" name="MouseWheel.png" path="/Res/"/>
+    <image id="hlmx8" name="MouseWheel2.png" path="/Res/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

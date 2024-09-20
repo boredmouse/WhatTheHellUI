@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080">
+  <controller name="enterType" homePageType="specific" homePage="1" pages="0,continue,1,new,2,test" selected="0"/>
+  <controller name="canContinue" pages="0,,1," selected="0"/>
+  <displayList>
+    <image id="n7_lwyp" name="n7" src="lwyp5" fileName="Res/diyubianxiangtu1.png" xy="0,0"/>
+    <image id="n4_k7t2" name="n4" src="k7t22" fileName="Res/dizang.png" xy="810,41" size="759,1702" aspect="true"/>
+    <component id="n0_og54" name="continueBtn" src="og541" fileName="Component/Button1.xml" xy="142,480">
+      <gearDisplay controller="canContinue" pages="1"/>
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+      <Button checked="true" controller="enterType" page="0"/>
+    </component>
+    <component id="n2_og54" name="newGameBtn" src="og541" fileName="Component/Button1.xml" xy="142,598">
+      <relation target="" sidePair="right-left,bottom-bottom"/>
+      <Button title="新游戏" controller="enterType" page="1"/>
+    </component>
+    <component id="n3_hlmx" name="testGameBtn" src="og541" fileName="Component/Button1.xml" xy="142,716">
+      <relation target="" sidePair="left-left,bottom-bottom"/>
+      <Button title="测试关卡" controller="enterType" page="2"/>
+    </component>
+  </displayList>
+</component>

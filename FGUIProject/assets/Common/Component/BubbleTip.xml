@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1000,100">
+  <displayList>
+    <image id="n0_hlmx" name="n0" src="hlmx0" fileName="Res/guodu.png" xy="25,15" size="950,68" alpha="0.68">
+      <relation target="" sidePair="center-center,middle-middle"/>
+      <relation target="n1_hlmx" sidePair="height-height"/>
+    </image>
+    <text id="n1_hlmx" name="tipTxt" xy="94,29" size="811,42" fontSize="30" color="#ffffff" align="center" autoSize="height" text="tip:lalalala...">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="Alpha" target="n0_hlmx" tween="true" startValue="0" endValue="0.5" duration="12" ease="Linear"/>
+    <item time="0" type="Alpha" target="n1_hlmx" tween="true" startValue="0" endValue="1" duration="12" ease="Linear"/>
+    <item time="0" type="XY" target="n0_hlmx" tween="true" startValue="25,15" endValue="25,-84" duration="12" ease="Linear"/>
+    <item time="0" type="XY" target="n1_hlmx" tween="true" startValue="94.5,29" endValue="94.5,-72" duration="12" ease="Linear"/>
+    <item time="30" type="Alpha" target="n0_hlmx" tween="true" startValue="0.5" endValue="0" duration="6"/>
+    <item time="30" type="Alpha" target="n1_hlmx" tween="true" startValue="1" endValue="0" duration="6"/>
+    <item time="30" type="XY" target="n0_hlmx" tween="true" startValue="25,-84" endValue="25,-84" duration="6"/>
+    <item time="30" type="XY" target="n1_hlmx" tween="true" startValue="94.5,-72" endValue="94.5,-72" duration="6"/>
+  </transition>
+</component>

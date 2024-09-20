@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="500,500">
+  <displayList>
+    <image id="n0_hlmx" name="n0" src="hlmx4" fileName="Res/keyB.png" xy="55,58" size="50,50" group="n3_hlmx"/>
+    <image id="n2_hlmx" name="n2" src="hlmx0" fileName="Res/guodu.png" pkg="5rz4pvnz" xy="104,57" size="173,55" group="n3_hlmx" alpha="0.5"/>
+    <text id="n1_hlmx" name="n1" xy="136,66" size="104,35" group="n3_hlmx" fontSize="25" color="#ffffff" text="打开背包"/>
+    <group id="n3_hlmx" name="openBag" xy="55,57" size="222,55"/>
+    <image id="n8_hlmx" name="n8" src="hlmx5" fileName="Res/MouseLeftBtn.png" xy="54,131" size="50,50" group="n7_hlmx"/>
+    <image id="n5_hlmx" name="n5" src="hlmx0" fileName="Res/guodu.png" pkg="5rz4pvnz" xy="104,128" size="173,55" group="n7_hlmx" alpha="0.5"/>
+    <text id="n6_hlmx" name="n6" xy="136,137" size="104,35" group="n7_hlmx" fontSize="25" color="#ffffff" text="普通攻击"/>
+    <group id="n7_hlmx" name="attack" xy="54,128" size="223,55"/>
+    <image id="n9_hlmx" name="n9" src="hlmx6" fileName="Res/MouseRightBtn.png" xy="55,200" size="50,50" group="n12_hlmx"/>
+    <image id="n10_hlmx" name="n10" src="hlmx0" fileName="Res/guodu.png" pkg="5rz4pvnz" xy="105,197" size="173,55" group="n12_hlmx" alpha="0.5"/>
+    <text id="n11_hlmx" name="n11" xy="137,206" size="54,35" group="n12_hlmx" fontSize="25" color="#ffffff" text="格挡"/>
+    <group id="n12_hlmx" name="block" xy="55,197" size="223,55"/>
+    <image id="n13_hlmx" name="n13" src="hlmx8" fileName="Res/MouseWheel2.png" xy="54,267" size="50,50" group="n16_hlmx"/>
+    <image id="n14_hlmx" name="n14" src="hlmx0" fileName="Res/guodu.png" pkg="5rz4pvnz" xy="104,264" size="173,55" group="n16_hlmx" alpha="0.5"/>
+    <text id="n15_hlmx" name="n15" xy="136,273" size="104,35" group="n16_hlmx" fontSize="25" color="#ffffff" text="切换道具"/>
+    <group id="n16_hlmx" name="changeProp" xy="54,264" size="223,55"/>
+  </displayList>
+</component>

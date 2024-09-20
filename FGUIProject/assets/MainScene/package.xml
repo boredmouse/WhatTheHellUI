@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="qnzip6ib">
+  <resources>
+    <component id="pr580" name="MainSceneView.xml" path="/Component/" exported="true"/>
+    <component id="og541" name="Button1.xml" path="/Component/"/>
+    <image id="k7t22" name="dizang.png" path="/Res/"/>
+    <image id="lwyp3" name="xiangmobian.png" path="/Res/"/>
+    <image id="lwyp5" name="diyubianxiangtu1.png" path="/Res/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>
