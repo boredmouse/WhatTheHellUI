@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="k3a8wj0a">
+  <resources>
+    <component id="fxub0" name="LoadingView.xml" path="/Component/"/>
+    <image id="fxub1" name="kulouhuanxitu.jpg" path="/Res/"/>
+    <component id="fxub4" name="LoadingProgressBar.xml" path="/Component/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>
