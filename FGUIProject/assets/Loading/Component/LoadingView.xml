@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="1920,1080">
   <displayList>
-    <image id="n0_fxub" name="n0" src="fxub1" fileName="Res/kulouhuanxitu.jpg" xy="0,-129" size="2222,1327"/>
-    <graph id="n1_fxub" name="n1" xy="0,0" size="1920,1080" type="rect" lineSize="0" fillColor="#80000000"/>
-    <component id="n3_fxub" name="progressBar" src="fxub4" fileName="Component/LoadingProgressBar.xml" xy="360,914">
-      <ProgressBar value="50" max="100"/>
-    </component>
+    <graph id="n1_fxub" name="n1" xy="0,0" size="1920,1080" type="rect" lineSize="0" fillColor="#ff000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
   </displayList>
+  <transition name="enter">
+    <item time="0" type="Alpha" target="n1_fxub" tween="true" startValue="0" endValue="1" duration="12"/>
+  </transition>
+  <transition name="exit">
+    <item time="0" type="Alpha" target="n1_fxub" tween="true" startValue="1" endValue="0" duration="12"/>
+  </transition>
 </component>
