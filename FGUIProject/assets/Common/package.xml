@@ -3,6 +3,8 @@
   <resources>
     <image id="hlmx0" name="guodu.png" path="/Res/" exported="true" scale="9grid" scale9grid="25,25,50,50"/>
     <component id="hlmx1" name="BubbleTip.xml" path="/Component/" exported="true"/>
+    <movieclip id="u7vkp" name="skydogClip.jta" path="/Component/" exported="true" atlas="alone"/>
+    <component id="u7vkq" name="skydogComp.xml" path="/Component/" exported="true"/>
   </resources>
   <publish name=""/>
 </packageDescription>

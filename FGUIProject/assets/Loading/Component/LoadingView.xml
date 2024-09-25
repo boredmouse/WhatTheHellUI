@@ -4,11 +4,16 @@
     <graph id="n1_fxub" name="n1" xy="0,0" size="1920,1080" type="rect" lineSize="0" fillColor="#ff000000">
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
+    <component id="n3_u7vk" name="n3" src="u7vkq" fileName="Component/skydogComp.xml" pkg="5rz4pvnz" xy="1567,787">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </component>
   </displayList>
   <transition name="enter">
-    <item time="0" type="Alpha" target="n1_fxub" tween="true" startValue="0" endValue="1" duration="12"/>
+    <item time="0" type="Alpha" target="n1_fxub" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="0" type="Alpha" target="n3_u7vk" tween="true" startValue="0" endValue="1" duration="6"/>
   </transition>
   <transition name="exit">
-    <item time="0" type="Alpha" target="n1_fxub" tween="true" startValue="1" endValue="0" duration="12"/>
+    <item time="0" type="Alpha" target="n1_fxub" tween="true" startValue="1" endValue="0" duration="6"/>
+    <item time="0" type="Alpha" target="n3_u7vk" tween="true" startValue="1" endValue="0" duration="6"/>
   </transition>
 </component>
