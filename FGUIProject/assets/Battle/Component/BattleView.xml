@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="1920,1080">
   <displayList>
-    <component id="n3_hlmx" name="ControlTipLeft" src="hlmx2" fileName="Component/subView/ScreenContrlTipComponent.xml" xy="6,186" size="500,500" touchable="false">
+    <component id="n3_hlmx" name="ControlTipLeft" src="hlmx2" fileName="Component/subView/ScreenContrlTipComponent.xml" xy="6,234" size="500,500" touchable="false">
       <relation target="" sidePair="left-left,top-top"/>
     </component>
+    <component id="n4_rb75" name="PlayerInfoComp" src="rb759" fileName="Component/subView/PlayerInfoComponent.xml" xy="20,14"/>
   </displayList>
 </component>
