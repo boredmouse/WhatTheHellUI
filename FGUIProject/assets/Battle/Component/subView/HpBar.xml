@@ -4,7 +4,14 @@
     <graph id="n0_rb75" name="n0" xy="0,0" size="500,26" type="rect" lineSize="0" lineColor="#ffa0a0a0" fillColor="#00333333">
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
+    <graph id="n2_nn85" name="lack" xy="0,0" size="500,26" visible="false" type="rect" lineSize="0" lineColor="#ffa0a0a0" fillColor="#4c990000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
     <graph id="n1_rb75" name="bar" xy="2,2" size="496,22" type="rect" lineSize="0"/>
   </displayList>
   <ProgressBar/>
+  <transition name="lack">
+    <item time="0" type="Alpha" target="n2_nn85" tween="true" startValue="1" endValue="0" duration="12"/>
+    <item time="12" type="Alpha" target="n2_nn85" tween="true" startValue="0" endValue="1" duration="12"/>
+  </transition>
 </component>

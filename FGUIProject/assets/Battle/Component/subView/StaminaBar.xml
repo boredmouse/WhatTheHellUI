@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="500,20" extention="ProgressBar">
   <displayList>
-    <graph id="n0_rb75" name="n0" xy="0,0" size="500,20" type="rect" lineSize="2" lineColor="#ffcccccc" fillColor="#ff333333">
+    <graph id="n0_rb75" name="n0" xy="0,0" size="500,20" type="rect" lineSize="2" lineColor="#e61c1c1c" fillColor="#cc333333">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n2_e5ni" name="lack" xy="0,0" size="500,20" visible="false" type="rect" lineSize="0" lineColor="#e61c1c1c" fillColor="#4cff0000">
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
     <graph id="n1_rb75" name="bar" xy="2,2" size="496,16" type="rect" lineSize="0" fillColor="#ff97b832"/>
   </displayList>
   <ProgressBar/>
+  <transition name="lack">
+    <item time="0" type="Alpha" target="n2_e5ni" tween="true" startValue="1" endValue="0" duration="12"/>
+    <item time="12" type="Alpha" target="n2_e5ni" tween="true" startValue="0" endValue="1" duration="12"/>
+  </transition>
 </component>

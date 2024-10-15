@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="500,25" extention="ProgressBar">
   <displayList>
-    <graph id="n0_rb75" name="n0" xy="0,0" size="500,26" type="rect" lineSize="2" lineColor="#ffcccccc" fillColor="#ff333333">
+    <graph id="n0_rb75" name="n0" xy="0,0" size="500,26" type="rect" lineSize="2" lineColor="#e61b1b1b" fillColor="#cc333333">
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
     <graph id="n1_rb75" name="bar" xy="2,2" size="496,22" type="rect" lineSize="0" fillColor="#ff742a2a"/>
