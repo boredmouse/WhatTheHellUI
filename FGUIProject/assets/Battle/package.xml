@@ -3,16 +3,17 @@
   <resources>
     <component id="hlmx0" name="BattleView.xml" path="/Component/" exported="true"/>
     <component id="hlmx1" name="BattleConfigView.xml" path="/Component/" exported="true"/>
-    <component id="hlmx2" name="ScreenContrlTipComponent.xml" path="/Component/subView/"/>
+    <component id="hlmx2" name="ScreenContrlTipComponent.xml" path="/Component/SubViews/"/>
     <image id="hlmx4" name="keyB.png" path="/Res/"/>
     <image id="hlmx5" name="MouseLeftBtn.png" path="/Res/"/>
     <image id="hlmx6" name="MouseRightBtn.png" path="/Res/"/>
     <image id="hlmx7" name="MouseWheel.png" path="/Res/"/>
     <image id="hlmx8" name="MouseWheel2.png" path="/Res/"/>
-    <component id="rb759" name="PlayerInfoComponent.xml" path="/Component/subView/"/>
-    <component id="rb75a" name="HpBar.xml" path="/Component/subView/"/>
-    <component id="rb75b" name="HpDelayBar.xml" path="/Component/subView/"/>
-    <component id="rb75c" name="StaminaBar.xml" path="/Component/subView/"/>
+    <component id="rb759" name="PlayerInfoComponent.xml" path="/Component/SubViews/"/>
+    <component id="rb75a" name="HpBar.xml" path="/Component/SubViews/"/>
+    <component id="rb75b" name="HpDelayBar.xml" path="/Component/SubViews/"/>
+    <component id="rb75c" name="StaminaBar.xml" path="/Component/SubViews/"/>
+    <component id="hu3dd" name="HpChangeNumView.xml" path="/Component/SubViews/" exported="true"/>
   </resources>
   <publish name=""/>
 </packageDescription>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,100">
+  <controller name="damageType" pages="0,普通,1,暴击" selected="0"/>
+  <displayList>
+    <text id="n0_hu3d" name="numTxt" xy="0,0" pivot="0.5,0.5" anchor="true" size="76,42" fontSize="30" color="#ffffff" align="center" vAlign="middle" bold="true" strokeColor="#492f11" strokeSize="2" text="1000">
+      <gearColor controller="damageType" pages="1" values="#eac636,#492f11" default="#ffffff,#492f11"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+  </displayList>
+  <transition name="normal">
+    <item time="0" type="Alpha" target="n0_hu3d" value="1"/>
+    <item time="0" type="Scale" target="n0_hu3d" tween="true" startValue="1,1" endValue="2,2" duration="2"/>
+    <item time="0" type="XY" target="n0_hu3d" value="0,0"/>
+    <item time="2" type="Scale" target="n0_hu3d" tween="true" startValue="2,2" endValue="1,1" duration="2"/>
+    <item time="18" type="Alpha" target="n0_hu3d" tween="true" startValue="1" endValue="0" duration="5"/>
+    <item time="18" type="XY" target="n0_hu3d" tween="true" startValue="0,0" endValue="0,-50" duration="5"/>
+  </transition>
+</component>
