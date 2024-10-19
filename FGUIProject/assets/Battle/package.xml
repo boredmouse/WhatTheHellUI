@@ -19,6 +19,7 @@
     <component id="b048i" name="NpcHpBarView.xml" path="/Component/SubViews/" exported="true"/>
     <component id="b048j" name="NpcHpBar.xml" path="/Component/SubViews/"/>
     <component id="b048k" name="NpcHpDelayBar.xml" path="/Component/SubViews/"/>
+    <component id="b048l" name="ArmorBar.xml" path="/Component/SubViews/"/>
   </resources>
   <publish name=""/>
 </packageDescription>
