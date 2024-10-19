@@ -7,7 +7,9 @@
     <graph id="n2_nn85" name="lack" xy="0,0" size="500,26" visible="false" type="rect" lineSize="0" lineColor="#ffa0a0a0" fillColor="#4c990000">
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <graph id="n1_rb75" name="bar" xy="2,2" size="496,22" type="rect" lineSize="0"/>
+    <image id="n1_rb75" name="bar" src="b048f" fileName="Res/hpbar.png" xy="2,2" size="496,22" fillMethod="hz">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
   </displayList>
   <ProgressBar/>
   <transition name="lack">

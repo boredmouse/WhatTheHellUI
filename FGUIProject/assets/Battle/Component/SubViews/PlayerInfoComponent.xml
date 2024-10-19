@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="800,200">
   <displayList>
-    <component id="n1_rb75" name="hpDelayBar" src="rb75b" fileName="Component/subView/HpDelayBar.xml" xy="17,23">
-      <ProgressBar value="71" max="100"/>
+    <component id="n1_rb75" name="hpDelayBar" src="rb75b" fileName="Component/SubViews/HpDelayBar.xml" xy="17,23" size="300,26">
+      <ProgressBar value="75" max="100"/>
     </component>
-    <component id="n0_rb75" name="hpBar" src="rb75a" fileName="Component/subView/HpBar.xml" xy="17,23">
+    <component id="n0_rb75" name="hpBar" src="rb75a" fileName="Component/SubViews/HpBar.xml" xy="17,23" size="300,26">
       <relation target="n1_rb75" sidePair=""/>
-      <ProgressBar value="45" max="100"/>
+      <ProgressBar value="100" max="100"/>
     </component>
-    <component id="n2_rb75" name="staminaBar" src="rb75c" fileName="Component/subView/StaminaBar.xml" xy="17,55">
-      <ProgressBar value="50" max="100"/>
+    <component id="n2_rb75" name="staminaBar" src="rb75c" fileName="Component/SubViews/StaminaBar.xml" xy="17,55" size="180,20">
+      <ProgressBar value="100" max="100"/>
     </component>
   </displayList>
 </component>

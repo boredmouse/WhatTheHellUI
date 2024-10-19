@@ -14,6 +14,11 @@
     <component id="rb75b" name="HpDelayBar.xml" path="/Component/SubViews/"/>
     <component id="rb75c" name="StaminaBar.xml" path="/Component/SubViews/"/>
     <component id="hu3dd" name="HpChangeNumView.xml" path="/Component/SubViews/" exported="true"/>
+    <image id="b048f" name="hpbar.png" path="/Res/"/>
+    <image id="b048h" name="staminaBar.png" path="/Res/"/>
+    <component id="b048i" name="NpcHpBarView.xml" path="/Component/SubViews/" exported="true"/>
+    <component id="b048j" name="NpcHpBar.xml" path="/Component/SubViews/"/>
+    <component id="b048k" name="NpcHpDelayBar.xml" path="/Component/SubViews/"/>
   </resources>
   <publish name=""/>
 </packageDescription>
