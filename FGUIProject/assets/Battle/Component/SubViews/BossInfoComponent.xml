@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1000,100">
+  <displayList>
+    <component id="n0_p782" name="hpDelayBar" src="rb75b" fileName="Component/SubViews/HpDelayBar.xml" xy="50,53" size="900,18">
+      <relation target="" sidePair="center-center"/>
+      <ProgressBar value="75" max="100"/>
+    </component>
+    <component id="n1_p782" name="hpBar" src="rb75a" fileName="Component/SubViews/HpBar.xml" xy="50,53" size="900,18">
+      <relation target="n0_p782" sidePair="left-left,top-top"/>
+      <relation target="" sidePair="center-center"/>
+      <ProgressBar value="54" max="100"/>
+    </component>
+    <text id="n2_p782" name="nameTxt" xy="450,3" size="99,42" fontSize="30" color="#ffffff" shadowColor="#000000" shadowOffset="2,2" text="大boss">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n3_p782" name="armorBar" src="b048l" fileName="Component/SubViews/ArmorBar.xml" xy="50,71" size="900,10">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <component id="n4_p782" name="boss2HpDelayBar" src="rb75b" fileName="Component/SubViews/HpDelayBar.xml" xy="50,135" size="900,18" group="n8_p782">
+      <relation target="" sidePair="center-center"/>
+      <ProgressBar value="75" max="100"/>
+    </component>
+    <component id="n5_p782" name="boss2HpBar" src="rb75a" fileName="Component/SubViews/HpBar.xml" xy="50,135" size="900,18" group="n8_p782">
+      <relation target="n4_p782" sidePair="left-left,top-top"/>
+      <relation target="" sidePair="center-center"/>
+      <ProgressBar value="54" max="100"/>
+    </component>
+    <text id="n6_p782" name="boss2NameTxt" xy="450,90" size="99,42" group="n8_p782" fontSize="30" color="#ffffff" shadowColor="#000000" shadowOffset="2,2" text="大boss">
+      <relation target="" sidePair="center-center"/>
+    </text>
+    <component id="n7_p782" name="boss2ArmorBar" src="b048l" fileName="Component/SubViews/ArmorBar.xml" xy="50,153" size="900,10" group="n8_p782">
+      <ProgressBar value="50" max="100"/>
+    </component>
+    <group id="n8_p782" name="boss2Group" xy="50,90" size="900,73" visible="false" advanced="true">
+      <relation target="" sidePair="center-center,top-top"/>
+    </group>
+  </displayList>
+</component>

@@ -4,7 +4,9 @@
     <graph id="n0_rb75" name="n0" xy="0,0" size="500,26" type="rect" lineSize="2" lineColor="#e61b1b1b" fillColor="#cc333333">
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <graph id="n1_rb75" name="bar" xy="2,2" size="496,22" type="rect" lineSize="0" fillColor="#ff742a2a"/>
+    <graph id="n1_rb75" name="bar" xy="2,2" size="496,22" type="rect" lineSize="0" fillColor="#ff742a2a">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
   </displayList>
   <ProgressBar/>
 </component>
