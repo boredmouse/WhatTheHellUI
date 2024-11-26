@@ -10,5 +10,6 @@
     <component id="n5_p782" name="BossInfoComp" src="p782m" fileName="Component/SubViews/BossInfoComponent.xml" xy="421,20" visible="false" touchable="false">
       <relation target="" sidePair="center-center,top-top"/>
     </component>
+    <component id="n6_rnp7" name="n6" src="rnp7r" fileName="Component/SubViews/GetItemTip.xml" xy="1356,540"/>
   </displayList>
 </component>
