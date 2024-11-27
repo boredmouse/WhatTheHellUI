@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="520,500">
+  <displayList>
+    <component id="n0_kc33" name="n0" src="rnp7r" fileName="Component/SubPanel/GetItemTip.xml" xy="2,6"/>
+    <component id="n1_kc33" name="n1" src="rnp7r" fileName="Component/SubPanel/GetItemTip.xml" xy="2,107"/>
+    <component id="n2_kc33" name="n2" src="rnp7r" fileName="Component/SubPanel/GetItemTip.xml" xy="2,208"/>
+  </displayList>
+</component>

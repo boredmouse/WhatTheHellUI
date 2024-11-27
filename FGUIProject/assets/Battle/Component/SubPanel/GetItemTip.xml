@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="520,100">
+  <displayList>
+    <image id="n0_rnp7" name="n0" src="rnp7q" fileName="Res/GetItemTipBG.png" xy="-13,-17" size="542,126" group="n5_kc33" aspect="true" alpha="0.85"/>
+    <text id="n1_rnp7" name="n1" xy="119,29" size="200,35" group="n5_kc33" fontSize="25" color="#ffffff" vAlign="middle" autoSize="shrink" text="稀有乱七八糟玺灵石"/>
+    <graph id="n2_rnp7" name="n2" xy="58,47" pivot="0.5,0.5" anchor="true" size="60,60" group="n5_kc33" alpha="0.5" type="rect" lineSize="2" lineColor="#ffffffff" fillColor="#ff000000"/>
+    <loader id="n3_gt47" name="n3" xy="58,47" pivot="0.5,0.5" anchor="true" size="56,56" group="n5_kc33" url="ui://j2wnr1cqkc330" fill="scale">
+      <relation target="n2_rnp7" sidePair="center-center,middle-middle"/>
+    </loader>
+    <text id="n4_kc33" name="n4" xy="321,29" size="59,35" group="n5_kc33" fontSize="25" color="#ffffff" vAlign="middle" text="x100"/>
+    <group id="n5_kc33" name="Item" xy="-13,-17" size="542,126" advanced="true"/>
+  </displayList>
+  <transition name="enter">
+    <item time="0" type="Alpha" target="n0_rnp7" tween="true" startValue="0.2" endValue="0.85" duration="12"/>
+    <item time="0" type="Alpha" target="n1_rnp7" tween="true" startValue="0" endValue="1" duration="12"/>
+    <item time="0" type="Alpha" target="n4_kc33" tween="true" startValue="0" endValue="1" duration="12"/>
+    <item time="0" type="Rotation" target="n2_rnp7" tween="true" startValue="45" endValue="0" duration="12"/>
+    <item time="0" type="Rotation" target="n3_gt47" tween="true" startValue="45" endValue="0" duration="12"/>
+    <item time="0" type="XY" target="n5_kc33" tween="true" startValue="531,-17" endValue="-13,-17" duration="12" ease="Expo.Out"/>
+    <item time="84" type="Alpha" target="n0_rnp7" tween="true" startValue="0.85" endValue="0" duration="12"/>
+    <item time="84" type="Alpha" target="n1_rnp7" tween="true" startValue="1" endValue="0" duration="12"/>
+    <item time="84" type="Alpha" target="n4_kc33" tween="true" startValue="1" endValue="0" duration="12"/>
+    <item time="84" type="Rotation" target="n2_rnp7" tween="true" startValue="0" endValue="45" duration="12"/>
+    <item time="84" type="Rotation" target="n3_gt47" tween="true" startValue="0" endValue="45" duration="12"/>
+    <item time="84" type="XY" target="n5_kc33" tween="true" startValue="-13,-17" endValue="531,-17" duration="12"/>
+  </transition>
+  <transition name="exit">
+    <item time="0" type="Alpha" target="n0_rnp7" tween="true" startValue="0.85" endValue="0" duration="12"/>
+    <item time="0" type="Alpha" target="n1_rnp7" tween="true" startValue="1" endValue="0" duration="12"/>
+    <item time="0" type="Alpha" target="n4_kc33" tween="true" startValue="1" endValue="0" duration="12"/>
+    <item time="0" type="Rotation" target="n2_rnp7" tween="true" startValue="0" endValue="45" duration="12"/>
+    <item time="0" type="Rotation" target="n3_gt47" tween="true" startValue="0" endValue="45" duration="12"/>
+    <item time="0" type="XY" target="n5_kc33" tween="true" startValue="-13,-17" endValue="531,-17" duration="12"/>
+  </transition>
+</component>

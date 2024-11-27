@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="110,70">
+  <displayList>
+    <text id="n0_kc33" name="moneyTxt" xy="110,35" pivot="1,0" anchor="true" size="110,35" fontSize="23" color="#ffffff" align="right" vAlign="middle" autoSize="shrink" text="10"/>
+    <text id="n1_kc33" name="addTxt" xy="110,0" pivot="1,0" anchor="true" size="110,35" visible="false" fontSize="23" color="#ffffff" align="right" vAlign="middle" autoSize="shrink" text="+100"/>
+  </displayList>
+  <transition name="add">
+    <item time="0" type="Alpha" target="n1_kc33" tween="true" startValue="0" endValue="1" duration="3"/>
+    <item time="0" type="Scale" target="n0_kc33" value="1,1"/>
+    <item time="0" type="Visible" target="n1_kc33" value="true"/>
+    <item time="0" type="XY" target="n1_kc33" value="110,0"/>
+    <item time="3" type="Alpha" target="n1_kc33" tween="true" startValue="1" endValue="1" duration="9"/>
+    <item time="12" type="Alpha" target="n1_kc33" tween="true" startValue="1" endValue="0" duration="6"/>
+    <item time="12" type="Scale" target="n0_kc33" tween="true" startValue="1,1" endValue="1.1,1.1" duration="3"/>
+    <item time="12" type="XY" target="n1_kc33" tween="true" startValue="110,0" endValue="110,19" duration="6"/>
+    <item time="15" type="Scale" target="n0_kc33" tween="true" startValue="1.1,1.1" endValue="1,1" duration="3"/>
+    <item time="18" type="Visible" target="n1_kc33" value="false"/>
+  </transition>
+</component>

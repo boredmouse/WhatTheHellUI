@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="j2wnr1cq">
+  <resources>
+    <image id="kc330" name="enhanceStoneLv1.png" path="/Res/" exported="true"/>
+    <image id="kc331" name="葫芦.png" path="/Res/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

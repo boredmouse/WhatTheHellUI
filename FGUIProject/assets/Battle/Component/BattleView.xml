@@ -4,12 +4,17 @@
     <component id="n3_hlmx" name="ControlTipLeft" src="hlmx2" fileName="Component/SubViews/ScreenContrlTipComponent.xml" xy="6,234" size="500,500" scale="0.8,0.8" touchable="false">
       <relation target="" sidePair="left-left,top-top"/>
     </component>
-    <component id="n4_rb75" name="PlayerInfoComp" src="rb759" fileName="Component/SubViews/PlayerInfoComponent.xml" xy="14,987" touchable="false">
+    <component id="n4_rb75" name="PlayerInfoComp" src="rb759" fileName="Component/SubViews/PlayerInfoComponent.xml" xy="2,2" touchable="false">
       <relation target="" sidePair="left-left,bottom-bottom"/>
     </component>
-    <component id="n5_p782" name="BossInfoComp" src="p782m" fileName="Component/SubViews/BossInfoComponent.xml" xy="421,20" visible="false" touchable="false">
+    <component id="n5_p782" name="BossInfoComp" src="p782m" fileName="Component/SubViews/BossInfoComponent.xml" xy="464,951" visible="false" touchable="false">
       <relation target="" sidePair="center-center,top-top"/>
     </component>
-    <component id="n6_rnp7" name="n6" src="rnp7r" fileName="Component/SubViews/GetItemTip.xml" xy="1356,540"/>
+    <component id="n9_kc33" name="CurrencyComp" src="kc33t" fileName="Component/SubPanel/CurrencyComponent.xml" xy="1429,0" touchable="false">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+    <component id="n10_kc33" name="n10" src="kc33u" fileName="Component/SubPanel/GetItemPanel.xml" xy="1400,129" touchable="false">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
   </displayList>
 </component>

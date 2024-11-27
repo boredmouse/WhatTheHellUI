@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<component size="1000,100">
-  <displayList>
-    <image id="n0_rnp7" name="n0" src="rnp7q" fileName="Res/GetItemTipBG.png" xy="-34,-28" size="646,151" aspect="true" alpha="0.8"/>
-    <text id="n1_rnp7" name="n1" xy="121,29" size="186,39" fontSize="28" color="#ffffff" text="稀有玺灵石  *1"/>
-    <graph id="n2_rnp7" name="n2" xy="18,7" size="80,80" alpha="0.5" type="rect" lineSize="2" lineColor="#ffffffff" fillColor="#ff000000"/>
-  </displayList>
-</component>

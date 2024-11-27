@@ -25,7 +25,12 @@
     <image id="hs66o" name="keyBG.png" path="/Res/" scale="9grid" scale9grid="25,25,50,50"/>
     <image id="hs66p" name="keyLight.png" path="/Res/"/>
     <image id="rnp7q" name="GetItemTipBG.png" path="/Res/"/>
-    <component id="rnp7r" name="GetItemTip.xml" path="/Component/SubViews/"/>
+    <component id="rnp7r" name="GetItemTip.xml" path="/Component/SubPanel/" exported="true"/>
+    <image id="kc33s" name="moneyBG.png" path="/Res/"/>
+    <component id="kc33t" name="CurrencyComponent.xml" path="/Component/SubPanel/"/>
+    <component id="kc33u" name="GetItemPanel.xml" path="/Component/SubPanel/"/>
+    <component id="kc33v" name="CurrencyItemKind.xml" path="/Component/SubPanel/"/>
+    <component id="kc33w" name="CurrencyItemEvil.xml" path="/Component/SubPanel/"/>
   </resources>
   <publish name=""/>
 </packageDescription>
