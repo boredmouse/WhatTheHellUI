@@ -31,6 +31,7 @@
     <component id="kc33u" name="GetItemPanel.xml" path="/Component/SubPanel/"/>
     <component id="kc33v" name="CurrencyItemKind.xml" path="/Component/SubPanel/"/>
     <component id="kc33w" name="CurrencyItemEvil.xml" path="/Component/SubPanel/"/>
+    <image id="wn3wz" name="GetItemTipQualityBg.png" path="/Res/"/>
   </resources>
   <publish name=""/>
 </packageDescription>

@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <packageDescription id="j2wnr1cq">
   <resources>
-    <image id="kc330" name="enhanceStoneLv1.png" path="/Res/" exported="true"/>
-    <image id="kc331" name="葫芦.png" path="/Res/" exported="true"/>
+    <image id="kc331" name="gourdBottle.png" path="/Res/" exported="true"/>
+    <image id="wn3w2" name="enhanceStoneOrange.png" path="/Res/" exported="true"/>
+    <image id="wn3w3" name="enhanceStonePurple.png" path="/Res/" exported="true"/>
+    <image id="wn3w4" name="enhanceStoneGreen.png" path="/Res/" exported="true"/>
+    <image id="wn3w5" name="enhanceStoneBlue.png" path="/Res/" exported="true"/>
   </resources>
   <publish name=""/>
 </packageDescription>

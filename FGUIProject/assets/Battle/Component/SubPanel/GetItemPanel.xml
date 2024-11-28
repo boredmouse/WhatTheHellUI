@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="520,500">
   <displayList>
-    <component id="n0_kc33" name="n0" src="rnp7r" fileName="Component/SubPanel/GetItemTip.xml" xy="2,6"/>
-    <component id="n1_kc33" name="n1" src="rnp7r" fileName="Component/SubPanel/GetItemTip.xml" xy="2,107"/>
-    <component id="n2_kc33" name="n2" src="rnp7r" fileName="Component/SubPanel/GetItemTip.xml" xy="2,208"/>
+    <component id="n0_kc33" name="n0" src="rnp7r" fileName="Component/SubPanel/GetItemTip.xml" xy="0,0"/>
+    <component id="n1_kc33" name="n1" src="rnp7r" fileName="Component/SubPanel/GetItemTip.xml" xy="0,92"/>
+    <component id="n2_kc33" name="n2" src="rnp7r" fileName="Component/SubPanel/GetItemTip.xml" xy="0,184"/>
+    <component id="n3_wn3w" name="n3" src="rnp7r" fileName="Component/SubPanel/GetItemTip.xml" xy="0,276"/>
+    <component id="n4_wn3w" name="n4" src="rnp7r" fileName="Component/SubPanel/GetItemTip.xml" xy="0,368"/>
   </displayList>
 </component>
