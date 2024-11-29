@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="1920,1080">
   <displayList>
-    <component id="n3_hlmx" name="ControlTipLeft" src="hlmx2" fileName="Component/SubViews/ScreenContrlTipComponent.xml" xy="6,234" size="500,500" scale="0.8,0.8" touchable="false">
+    <component id="n3_hlmx" name="ControlTipLeft" src="hlmx2" fileName="Component/SubViews/ScreenContrlTipComponent.xml" xy="6,187" size="500,500" scale="0.8,0.8" touchable="false">
       <relation target="" sidePair="left-left,top-top"/>
     </component>
-    <component id="n4_rb75" name="PlayerInfoComp" src="rb759" fileName="Component/SubViews/PlayerInfoComponent.xml" xy="2,2" touchable="false">
+    <component id="n4_rb75" name="PlayerInfoComp" src="rb759" fileName="Component/SubViews/PlayerInfoComponent.xml" xy="59,39" touchable="false">
       <relation target="" sidePair="left-left,bottom-bottom"/>
     </component>
     <component id="n5_p782" name="BossInfoComp" src="p782m" fileName="Component/SubViews/BossInfoComponent.xml" xy="464,951" visible="false" touchable="false">
       <relation target="" sidePair="center-center,top-top"/>
     </component>
-    <component id="n9_kc33" name="CurrencyComp" src="kc33t" fileName="Component/SubPanel/CurrencyComponent.xml" xy="1429,0" touchable="false">
-      <relation target="" sidePair="right-right,top-top"/>
+    <component id="n9_kc33" name="CurrencyComp" src="kc33t" fileName="Component/SubPanel/CurrencyComponent.xml" xy="1426,907" touchable="false">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
     </component>
-    <component id="n10_kc33" name="GetItemTipComp" src="kc33u" fileName="Component/SubPanel/GetItemPanel.xml" xy="1400,129" touchable="false">
+    <component id="n10_kc33" name="GetItemTipComp" src="kc33u" fileName="Component/SubPanel/GetItemPanel.xml" xy="1401,417" touchable="false">
       <relation target="" sidePair="right-right,top-top"/>
     </component>
   </displayList>
