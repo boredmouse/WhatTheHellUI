@@ -13,7 +13,7 @@
     <component id="n9_kc33" name="CurrencyComp" src="kc33t" fileName="Component/SubPanel/CurrencyComponent.xml" xy="1429,0" touchable="false">
       <relation target="" sidePair="right-right,top-top"/>
     </component>
-    <component id="n10_kc33" name="n10" src="kc33u" fileName="Component/SubPanel/GetItemPanel.xml" xy="1400,129" touchable="false">
+    <component id="n10_kc33" name="GetItemTipComp" src="kc33u" fileName="Component/SubPanel/GetItemPanel.xml" xy="1400,129" touchable="false">
       <relation target="" sidePair="right-right,top-top"/>
     </component>
   </displayList>

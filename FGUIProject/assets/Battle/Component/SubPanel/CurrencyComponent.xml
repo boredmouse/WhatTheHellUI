@@ -4,7 +4,7 @@
     <image id="n0_kc33" name="n0" src="kc33s" fileName="Res/moneyBG.png" xy="-11,0"/>
     <graph id="n3_kc33" name="n3" xy="89,108" size="115,1" type="rect" lineSize="0"/>
     <graph id="n4_kc33" name="n4" xy="291,108" size="115,1" type="rect" lineSize="0"/>
-    <component id="n7_kc33" name="kindMoneyNode" src="kc33v" fileName="Component/SubPanel/CurrencyItemKind.xml" xy="92,43"/>
-    <component id="n8_kc33" name="evilMoneyNode" src="kc33w" fileName="Component/SubPanel/CurrencyItemEvil.xml" xy="292,43"/>
+    <component id="n7_kc33" name="kindPointNode" src="kc33v" fileName="Component/SubPanel/CurrencyItemKind.xml" xy="92,43"/>
+    <component id="n8_kc33" name="evilPointNode" src="kc33w" fileName="Component/SubPanel/CurrencyItemEvil.xml" xy="292,43"/>
   </displayList>
 </component>

@@ -4,25 +4,25 @@
     <image id="n2_wn3w" name="n2" src="hlmx0" fileName="Res/guodu.png" pkg="5rz4pvnz" xy="36,-1" size="95,37" visible="false" alpha="0.5">
       <relation target="n1_kc33" sidePair="width-width,height-height,center-center"/>
     </image>
-    <text id="n0_kc33" name="moneyTxt" xy="110,35" pivot="1,0" anchor="true" size="110,35" fontSize="23" color="#ffffff" align="right" vAlign="middle" autoSize="shrink" text="10"/>
+    <text id="n0_kc33" name="valueTxt" xy="110,35" pivot="1,0" anchor="true" size="110,35" fontSize="23" color="#ffffff" align="right" vAlign="middle" autoSize="shrink" text="10"/>
     <text id="n1_kc33" name="addTxt" xy="110,0" pivot="1,0" anchor="true" size="56,33" visible="false" fontSize="23" color="#ffffff" align="right" vAlign="middle" text="+100"/>
   </displayList>
   <transition name="add">
-    <item time="0" type="Alpha" target="n1_kc33" tween="true" startValue="0" endValue="1" duration="3"/>
+    <item time="0" type="Alpha" target="n1_kc33" tween="true" startValue="0" endValue="1" duration="6"/>
     <item time="0" type="Alpha" target="n2_wn3w" value="0.5"/>
     <item time="0" type="Scale" target="n0_kc33" value="1,1"/>
     <item time="0" type="Visible" target="n1_kc33" value="true"/>
     <item time="0" type="Visible" target="n2_wn3w" value="true"/>
     <item time="0" type="XY" target="n1_kc33" value="110,0"/>
     <item time="0" type="XY" target="n2_wn3w" value="36,-1"/>
-    <item time="3" type="Alpha" target="n1_kc33" tween="true" startValue="1" endValue="1" duration="9"/>
-    <item time="12" type="Alpha" target="n1_kc33" tween="true" startValue="1" endValue="0" duration="6"/>
-    <item time="12" type="Alpha" target="n2_wn3w" tween="true" startValue="0.5" endValue="0" duration="6"/>
-    <item time="12" type="Scale" target="n0_kc33" tween="true" startValue="1,1" endValue="1.1,1.1" duration="3"/>
-    <item time="12" type="XY" target="n1_kc33" tween="true" startValue="110,0" endValue="110,19" duration="6"/>
-    <item time="12" type="XY" target="n2_wn3w" tween="true" startValue="36,-1" endValue="36,17" duration="6"/>
-    <item time="15" type="Scale" target="n0_kc33" tween="true" startValue="1.1,1.1" endValue="1,1" duration="3"/>
-    <item time="18" type="Visible" target="n1_kc33" value="false"/>
-    <item time="18" type="Visible" target="n2_wn3w" value="false"/>
+    <item time="6" type="Alpha" target="n1_kc33" tween="true" startValue="1" endValue="1" duration="18"/>
+    <item time="24" type="Alpha" target="n1_kc33" tween="true" startValue="1" endValue="0" duration="6"/>
+    <item time="24" type="Alpha" target="n2_wn3w" tween="true" startValue="0.5" endValue="0" duration="6"/>
+    <item time="24" type="Scale" target="n0_kc33" tween="true" startValue="1,1" endValue="1.1,1.1" duration="3"/>
+    <item time="24" type="XY" target="n1_kc33" tween="true" startValue="110,0" endValue="110,19" duration="6"/>
+    <item time="24" type="XY" target="n2_wn3w" tween="true" startValue="36,-1" endValue="36,17" duration="6"/>
+    <item time="27" type="Scale" target="n0_kc33" tween="true" startValue="1.1,1.1" endValue="1,1" duration="3"/>
+    <item time="30" type="Visible" target="n1_kc33" value="false"/>
+    <item time="30" type="Visible" target="n2_wn3w" value="false"/>
   </transition>
 </component>
