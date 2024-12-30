@@ -6,6 +6,7 @@
     <movieclip id="u7vkp" name="skydogClip.jta" path="/Component/" exported="true" atlas="alone"/>
     <component id="u7vkq" name="skydogComp.xml" path="/Component/" exported="true"/>
     <font id="neka8" name="AlimamaDongFangDaKai-Regular.ttf" path="/" renderMode="smooth" samplePointSize="16"/>
+    <font id="nekar" name="slideyouran-Regular.ttf" path="/" renderMode="" samplePointSize="16"/>
   </resources>
   <publish name=""/>
 </packageDescription>
