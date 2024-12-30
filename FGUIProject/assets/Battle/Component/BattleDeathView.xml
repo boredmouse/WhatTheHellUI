@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080">
+  <displayList>
+    <graph id="n3_q2wk" name="n3" xy="0,0" size="1920,1080" type="rect" lineSize="0" fillColor="#ff000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <image id="n0_q2wk" name="n0" src="q2wkt" fileName="Res/blood1.png" pkg="5rz4pvnz" xy="980,500" pivot="0.5,0.5" anchor="true" size="1076,1140" aspect="true" alpha="0.38"/>
+    <image id="n2_q2wk" name="n2" src="q2wks" fileName="Res/blood3.png" pkg="5rz4pvnz" xy="953,448" pivot="0.5,0.5" anchor="true" size="854,854" aspect="true" alpha="0.75" rotation="133"/>
+    <image id="n1_q2wk" name="n1" src="q2wku" fileName="Res/blood2.png" pkg="5rz4pvnz" xy="-634,-864" size="1616,1616" aspect="true" alpha="0.5" color="#914343">
+      <relation target="" sidePair="left-left,top-top"/>
+    </image>
+    <image id="n8_q2wk" name="n8" src="q2wku" fileName="Res/blood2.png" pkg="5rz4pvnz" xy="2644,1915" pivot="1,1" anchor="true" size="1616,1616" aspect="true" alpha="0.5" color="#914343">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </image>
+    <text id="n4_q2wk" name="n4" xy="888,170" size="161,542" font="ui://5rz4pvnznekar" fontSize="106" color="#ece4d6" align="center" leading="-27" autoSize="none" shadowColor="#000000" shadowOffset="8,6" text="魂">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n5_q2wk" name="n5" xy="888,274" size="161,158" font="ui://5rz4pvnznekar" fontSize="106" color="#ece4d6" align="center" leading="-27" autoSize="none" shadowColor="#000000" shadowOffset="8,6" text="飞">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n6_q2wk" name="n6" xy="888,377" size="161,142" font="ui://5rz4pvnznekar" fontSize="106" color="#ece4d6" align="center" leading="-27" autoSize="none" shadowColor="#000000" shadowOffset="8,6" text="魄">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n7_q2wk" name="n7" xy="888,484" size="161,142" font="ui://5rz4pvnznekar" fontSize="106" color="#ece4d6" align="center" leading="-27" autoSize="none" shadowColor="#000000" shadowOffset="8,6" text="散">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <text id="n9_q2wk" name="deathTxt" xy="923,819" pivot="0.5,0.5" size="74,48" font="ui://5rz4pvnzneka8" fontSize="35" color="#ece4d6" align="center" leading="-27" text="死亡">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </text>
+    <graph id="n10_q2wk" name="n10" xy="959,871" pivot="0.5,0.5" anchor="true" size="474,2" type="rect" lineSize="0"/>
+  </displayList>
+  <transition name="enter" autoPlay="true">
+    <item time="0" type="Alpha" target="n0_q2wk" tween="true" startValue="1" endValue="0.38" duration="6"/>
+    <item time="0" type="Alpha" target="n3_q2wk" tween="true" startValue="0" endValue="0.8" duration="6"/>
+    <item time="0" type="Alpha" target="n4_q2wk" value="0"/>
+    <item time="0" type="Alpha" target="n5_q2wk" value="0"/>
+    <item time="0" type="Alpha" target="n6_q2wk" value="0"/>
+    <item time="0" type="Alpha" target="n7_q2wk" value="0"/>
+    <item time="0" type="Alpha" target="n9_q2wk" value="0"/>
+    <item time="0" type="Color" target="n0_q2wk" tween="true" startValue="#843d3f" endValue="#5b1d1d" duration="6"/>
+    <item time="0" type="Scale" target="n0_q2wk" tween="true" startValue="0.8,0.8" endValue="1,1" duration="6"/>
+    <item time="0" type="Scale" target="n10_q2wk" value="0,0"/>
+    <item time="0" type="Scale" target="n1_q2wk" tween="true" startValue="0.8,0.8" endValue="1,1" duration="24"/>
+    <item time="0" type="Scale" target="n2_q2wk" tween="true" startValue="1.1,1.1" endValue="1,1" duration="6"/>
+    <item time="0" type="Scale" target="n4_q2wk" value="1.3,1.3"/>
+    <item time="0" type="Scale" target="n5_q2wk" value="1.3,1.3"/>
+    <item time="0" type="Scale" target="n6_q2wk" value="1.3,1.3"/>
+    <item time="0" type="Scale" target="n7_q2wk" value="1.3,1.3"/>
+    <item time="0" type="Scale" target="n8_q2wk" tween="true" startValue="0.8,0.8" endValue="1,1" duration="24"/>
+    <item time="6" type="Alpha" target="n3_q2wk" tween="true" startValue="0.8" endValue="0.9" duration="18"/>
+    <item time="6" type="Alpha" target="n4_q2wk" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="6" type="Scale" target="n4_q2wk" tween="true" startValue="1.3,1.3" endValue="1,1" duration="6"/>
+    <item time="12" type="Alpha" target="n5_q2wk" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="12" type="Scale" target="n5_q2wk" tween="true" startValue="1.3,1.3" endValue="1,1" duration="6"/>
+    <item time="18" type="Alpha" target="n6_q2wk" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="18" type="Scale" target="n6_q2wk" tween="true" startValue="1.3,1.3" endValue="1,1" duration="6"/>
+    <item time="24" type="Alpha" target="n7_q2wk" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="24" type="Alpha" target="n9_q2wk" tween="true" startValue="0" endValue="1" duration="12"/>
+    <item time="24" type="Scale" target="n10_q2wk" tween="true" startValue="0,0" endValue="1,1" duration="12"/>
+    <item time="24" type="Scale" target="n7_q2wk" tween="true" startValue="1.3,1.3" endValue="1,1" duration="6"/>
+  </transition>
+</component>

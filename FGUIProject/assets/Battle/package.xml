@@ -34,6 +34,7 @@
     <image id="wn3wz" name="GetItemTipQualityBg.png" path="/Res/"/>
     <image id="nliz10" name="getevillight.png" path="/Res/"/>
     <image id="nliz11" name="getkindlight.png" path="/Res/"/>
+    <component id="q2wk13" name="BattleDeathView.xml" path="/Component/" exported="true"/>
   </resources>
   <publish name=""/>
 </packageDescription>

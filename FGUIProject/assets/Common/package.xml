@@ -7,6 +7,9 @@
     <component id="u7vkq" name="skydogComp.xml" path="/Component/" exported="true"/>
     <font id="neka8" name="AlimamaDongFangDaKai-Regular.ttf" path="/" renderMode="smooth" samplePointSize="16"/>
     <font id="nekar" name="slideyouran-Regular.ttf" path="/" renderMode="" samplePointSize="16"/>
+    <image id="q2wks" name="blood3.png" path="/Res/" exported="true"/>
+    <image id="q2wkt" name="blood1.png" path="/Res/" exported="true"/>
+    <image id="q2wku" name="blood2.png" path="/Res/" exported="true"/>
   </resources>
   <publish name=""/>
 </packageDescription>
