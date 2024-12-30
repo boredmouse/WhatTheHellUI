@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="200,100" extention="Button">
-  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="3"/>
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
   <displayList>
     <graph id="n0_og54" name="n0" xy="0,0" size="200,100" touchable="false" type="rect" lineSize="0" fillColor="#80ffffff">
       <gearDisplay controller="button" pages="1,3"/>
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <text id="n3_og54" name="title" xy="38,29" size="128,42" fontSize="30" color="#333333" bold="true" text="继续游戏">
+    <text id="n3_og54" name="title" xy="38,29" size="124,42" font="ui://5rz4pvnzneka8" fontSize="30" color="#ffffff" text="继续游戏">
       <gearColor controller="button" pages="1,3" values="#333333,#000000|#333333,#000000" default="#ffffff,#000000"/>
     </text>
   </displayList>

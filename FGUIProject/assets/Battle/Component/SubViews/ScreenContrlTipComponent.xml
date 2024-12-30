@@ -3,31 +3,31 @@
   <displayList>
     <image id="n0_hlmx" name="n0" src="hlmx4" fileName="Res/keyB.png" xy="55,58" size="50,50" group="n3_hlmx"/>
     <image id="n2_hlmx" name="n2" src="hlmx0" fileName="Res/guodu.png" pkg="5rz4pvnz" xy="104,57" size="173,55" group="n3_hlmx" alpha="0.5"/>
-    <text id="n1_hlmx" name="n1" xy="136,66" size="104,35" group="n3_hlmx" fontSize="25" color="#ffffff" text="打开背包"/>
+    <text id="n1_hlmx" name="n1" xy="136,64" size="116,39" group="n3_hlmx" font="ui://5rz4pvnzneka8" fontSize="28" color="#ffffff" text="打开背包"/>
     <group id="n3_hlmx" name="openBag" xy="55,57" size="222,55"/>
     <image id="n8_hlmx" name="n8" src="hlmx5" fileName="Res/MouseLeftBtn.png" xy="54,131" size="50,50" group="n7_hlmx"/>
     <image id="n5_hlmx" name="n5" src="hlmx0" fileName="Res/guodu.png" pkg="5rz4pvnz" xy="104,128" size="173,55" group="n7_hlmx" alpha="0.5"/>
-    <text id="n6_hlmx" name="n6" xy="136,137" size="104,35" group="n7_hlmx" fontSize="25" color="#ffffff" text="普通攻击"/>
+    <text id="n6_hlmx" name="n6" xy="136,136" size="116,39" group="n7_hlmx" font="ui://5rz4pvnzneka8" fontSize="28" color="#ffffff" text="普通攻击"/>
     <group id="n7_hlmx" name="attack" xy="54,128" size="223,55"/>
     <image id="n9_hlmx" name="n9" src="hlmx6" fileName="Res/MouseRightBtn.png" xy="55,200" size="50,50" group="n12_hlmx"/>
     <image id="n10_hlmx" name="n10" src="hlmx0" fileName="Res/guodu.png" pkg="5rz4pvnz" xy="105,197" size="173,55" group="n12_hlmx" alpha="0.5"/>
-    <text id="n11_hlmx" name="n11" xy="137,206" size="54,35" group="n12_hlmx" fontSize="25" color="#ffffff" text="格挡"/>
+    <text id="n11_hlmx" name="n11" xy="136,205" size="60,39" group="n12_hlmx" font="ui://5rz4pvnzneka8" fontSize="28" color="#ffffff" text="格挡"/>
     <group id="n12_hlmx" name="block" xy="55,197" size="223,55"/>
     <image id="n13_hlmx" name="n13" src="hlmx8" fileName="Res/MouseWheel2.png" xy="54,267" size="50,50" group="n16_hlmx"/>
     <image id="n14_hlmx" name="n14" src="hlmx0" fileName="Res/guodu.png" pkg="5rz4pvnz" xy="104,264" size="173,55" group="n16_hlmx" alpha="0.5"/>
-    <text id="n15_hlmx" name="n15" xy="136,273" size="104,35" group="n16_hlmx" fontSize="25" color="#ffffff" text="切换道具"/>
+    <text id="n15_hlmx" name="n15" xy="136,271" size="116,39" group="n16_hlmx" font="ui://5rz4pvnzneka8" fontSize="28" color="#ffffff" text="切换道具"/>
     <group id="n16_hlmx" name="changeProp" xy="54,264" size="223,55"/>
     <image id="n17_hs66" name="n17" src="hs66o" fileName="Res/keyBG.png" xy="55,334" size="100,100" group="n20_hs66" scale="0.5,0.5"/>
     <text id="n21_hs66" name="n21" xy="68,337" size="23,44" group="n20_hs66" fontSize="32" color="#ffffff" bold="true" text="F"/>
     <image id="n18_hs66" name="n18" src="hlmx0" fileName="Res/guodu.png" pkg="5rz4pvnz" xy="104,333" size="173,55" group="n20_hs66" alpha="0.5"/>
-    <text id="n19_hs66" name="n19" xy="136,342" size="104,35" group="n20_hs66" fontSize="25" color="#ffffff" text="特殊攻击"/>
+    <text id="n19_hs66" name="n19" xy="136,341" size="116,39" group="n20_hs66" font="ui://5rz4pvnzneka8" fontSize="28" color="#ffffff" text="特殊攻击"/>
     <group id="n20_hs66" name="specialAttack" xy="55,333" size="222,101"/>
     <image id="n22_hs66" name="n22" src="hs66o" fileName="Res/keyBG.png" xy="53,404" size="210,100" group="n26_hs66" scale="0.5,0.5"/>
     <text id="n23_hs66" name="n23" xy="66,408" size="77,42" group="n26_hs66" fontSize="30" color="#ffffff" bold="true" text="Shift"/>
-    <image id="n24_hs66" name="n24" src="hlmx0" fileName="Res/guodu.png" pkg="5rz4pvnz" xy="154,403" size="121,55" group="n26_hs66" alpha="0.5">
+    <image id="n24_hs66" name="n24" src="hlmx0" fileName="Res/guodu.png" pkg="5rz4pvnz" xy="154,403" size="127,55" group="n26_hs66" alpha="0.5">
       <relation target="n25_hs66" sidePair="width-width,center-center,middle-middle"/>
     </image>
-    <text id="n25_hs66" name="n25" xy="186,412" size="54,35" group="n26_hs66" fontSize="25" color="#ffffff" text="瞬移"/>
-    <group id="n26_hs66" name="teleport" xy="53,403" size="222,101"/>
+    <text id="n25_hs66" name="n25" xy="186,410" size="60,39" group="n26_hs66" font="ui://5rz4pvnzneka8" fontSize="28" color="#ffffff" text="瞬移"/>
+    <group id="n26_hs66" name="teleport" xy="53,403" size="228,101"/>
   </displayList>
 </component>

@@ -2,17 +2,20 @@
 <component size="118,50" pivot="0.5,0.5" anchor="true">
   <controller name="state" pages="0,can,1,cant" selected="0"/>
   <displayList>
-    <image id="n0_hs66" name="n0" src="hs66o" fileName="Res/keyBG.png" xy="-23,-1" pivot="0.5,0.5" anchor="true" group="n4_rnp7" scale="0.5,0.5">
+    <image id="n5_neka" name="n5" src="hlmx0" fileName="Res/guodu.png" pkg="5rz4pvnz" xy="-65,-28" size="149,55" group="n4_rnp7" alpha="0.5">
+      <relation target="n2_hs66" sidePair="rightext-right"/>
+    </image>
+    <image id="n0_hs66" name="n0" src="hs66o" fileName="Res/keyBG.png" xy="-40,-1" pivot="0.5,0.5" anchor="true" group="n4_rnp7" scale="0.5,0.5">
       <gearColor controller="state" pages="1" values="#b26262" default="#ffffff"/>
     </image>
-    <text id="n1_hs66" name="n1" xy="-23,-2" pivot="0.5,0.5" anchor="true" size="24,44" group="n4_rnp7" fontSize="32" color="#ffffff" bold="true" text="E">
+    <text id="n1_hs66" name="n1" xy="-40,-2" pivot="0.5,0.5" anchor="true" size="23,44" group="n4_rnp7" font="ui://5rz4pvnzneka8" fontSize="32" color="#ffffff" bold="true" text="E">
       <gearColor controller="state" pages="1" values="#e97373,#000000" default="#ffffff,#000000"/>
     </text>
-    <text id="n2_hs66" name="InteractTxt" xy="2,-24" size="64,42" group="n4_rnp7" fontSize="30" color="#ffffff" shadowColor="#000000" shadowOffset="1,1" text="开启">
+    <text id="n2_hs66" name="InteractTxt" xy="-15,-24" size="64,42" group="n4_rnp7" font="ui://5rz4pvnzneka8" fontSize="30" color="#ffffff" shadowColor="#000000" shadowOffset="1,1" text="开启">
       <gearColor controller="state" pages="0" values="#ffffff,#000000" default="#e97373,#000000"/>
     </text>
-    <image id="n3_hs66" name="n3" src="hs66p" fileName="Res/keyLight.png" xy="-24,-2" pivot="0.5,0.5" anchor="true" group="n4_rnp7" visible="false"/>
-    <group id="n4_rnp7" name="n4" xy="-74,-52" size="140,101" advanced="true">
+    <image id="n3_hs66" name="n3" src="hs66p" fileName="Res/keyLight.png" xy="-41,-2" pivot="0.5,0.5" anchor="true" group="n4_rnp7" visible="false"/>
+    <group id="n4_rnp7" name="n4" xy="-91,-52" size="175,101" advanced="true">
       <relation target="" sidePair="center-center,middle-middle"/>
     </group>
   </displayList>
@@ -21,6 +24,7 @@
     <item time="0" type="Alpha" target="n1_hs66" tween="true" startValue="1" endValue="1" duration="2"/>
     <item time="0" type="Alpha" target="n2_hs66" tween="true" startValue="1" endValue="1" duration="2"/>
     <item time="0" type="Alpha" target="n3_hs66" tween="true" startValue="1" endValue="1" duration="2"/>
+    <item time="0" type="Alpha" target="n5_neka" tween="true" startValue="0.5" endValue="0" duration="12"/>
     <item time="0" type="Scale" target="n0_hs66" tween="true" startValue="0.5,0.5" endValue="0.4,0.4" duration="2"/>
     <item time="0" type="Scale" target="n3_hs66" tween="true" startValue="1,1" endValue="0.8,0.8" duration="2"/>
     <item time="0" type="Visible" target="n3_hs66" value="true"/>
@@ -36,6 +40,7 @@
     <item time="0" type="Alpha" target="n0_hs66" tween="true" startValue="0.5" endValue="1" duration="3"/>
     <item time="0" type="Alpha" target="n1_hs66" tween="true" startValue="0.5" endValue="1" duration="3"/>
     <item time="0" type="Alpha" target="n2_hs66" tween="true" startValue="0.5" endValue="1" duration="3"/>
+    <item time="0" type="Alpha" target="n5_neka" tween="true" startValue="0" endValue="0.5" duration="3"/>
     <item time="0" type="Scale" target="n0_hs66" value="0.5,0.5"/>
     <item time="0" type="Visible" target="n3_hs66" value="false"/>
     <item time="3" type="Scale" target="n0_hs66" value="0.5,0.5"/>
@@ -44,6 +49,7 @@
     <item time="0" type="Alpha" target="n0_hs66" tween="true" startValue="1" endValue="0" duration="3"/>
     <item time="0" type="Alpha" target="n1_hs66" tween="true" startValue="1" endValue="0" duration="3"/>
     <item time="0" type="Alpha" target="n2_hs66" tween="true" startValue="1" endValue="0" duration="3"/>
+    <item time="0" type="Alpha" target="n5_neka" tween="true" startValue="0.5" endValue="0" duration="3"/>
     <item time="0" type="Scale" target="n0_hs66" value="0.5,0.5"/>
     <item time="0" type="Visible" target="n3_hs66" value="false"/>
   </transition>

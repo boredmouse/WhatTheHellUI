@@ -3,12 +3,12 @@
   <controller name="quality" homePageType="specific" homePage="4" pages="0,,1,,2,,3,,4," selected="0"/>
   <displayList>
     <image id="n0_rnp7" name="n0" src="rnp7q" fileName="Res/GetItemTipBG.png" xy="530,-17" size="542,126" group="n5_kc33" aspect="true" alpha="0.85"/>
-    <text id="n1_rnp7" name="itemNameTxt" xy="662,29" size="200,32" group="n5_kc33" fontSize="22" color="#ffffff" vAlign="middle" autoSize="shrink" text="稀有乱七八糟玺灵石"/>
+    <text id="n1_rnp7" name="itemNameTxt" xy="662,29" size="200,35" group="n5_kc33" font="ui://5rz4pvnzneka8" fontSize="25" color="#ffffff" vAlign="middle" autoSize="shrink" text="玺灵石一级"/>
     <graph id="n2_rnp7" name="n2" xy="601,47" pivot="0.5,0.5" anchor="true" size="60,60" group="n5_kc33" alpha="0.5" type="rect" lineSize="2" lineColor="#ffffffff" fillColor="#ff000000"/>
     <loader id="n3_gt47" name="iconLoader" xy="601,47" pivot="0.5,0.5" anchor="true" size="52,52" group="n5_kc33" url="ui://j2wnr1cqwn3w3" fill="scale">
       <relation target="n2_rnp7" sidePair="center-center,middle-middle"/>
     </loader>
-    <text id="n4_kc33" name="numTxt" xy="864,29" size="55,32" group="n5_kc33" fontSize="22" color="#ffffff" vAlign="middle" text="x100"/>
+    <text id="n4_kc33" name="numTxt" xy="864,29" size="52,32" group="n5_kc33" font="ui://5rz4pvnzneka8" fontSize="22" color="#ffffff" vAlign="middle" text="x100"/>
     <image id="n7_wn3w" name="n7" src="wn3wz" fileName="Res/GetItemTipQualityBg.png" xy="565,10" size="318,75" group="n5_kc33" aspect="true" color="#cccccc">
       <gearColor controller="quality" pages="0,1,2,3,4" values="#cccccc|#38ed28|#2599fe|#c644f5|#f7970f"/>
     </image>

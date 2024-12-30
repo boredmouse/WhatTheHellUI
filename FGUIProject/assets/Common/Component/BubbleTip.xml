@@ -5,7 +5,7 @@
       <relation target="" sidePair="center-center,middle-middle"/>
       <relation target="n1_hlmx" sidePair="height-height"/>
     </image>
-    <text id="n1_hlmx" name="tipTxt" xy="94,29" size="811,42" fontSize="30" color="#ffffff" align="center" autoSize="height" text="tip:lalalala...">
+    <text id="n1_hlmx" name="tipTxt" xy="94,29" size="811,42" font="ui://5rz4pvnzneka8" fontSize="30" color="#ffffff" align="center" autoSize="height" text="tip:lalalala...">
       <relation target="" sidePair="center-center,middle-middle"/>
     </text>
   </displayList>

@@ -25,7 +25,7 @@
       <relation target="" sidePair="center-center"/>
       <ProgressBar value="54" max="100"/>
     </component>
-    <text id="n6_p782" name="boss2NameTxt" xy="450,-71" size="99,42" group="n8_p782" fontSize="30" color="#ffffff" shadowColor="#000000" shadowOffset="2,2" text="大boss">
+    <text id="n6_p782" name="boss2NameTxt" xy="453,-71" size="92,42" group="n8_p782" font="ui://5rz4pvnzneka8" fontSize="30" color="#ffffff" shadowColor="#000000" shadowOffset="2,2" text="大boss">
       <relation target="" sidePair="center-center"/>
     </text>
     <component id="n7_p782" name="boss2ArmorBar" src="b048l" fileName="Component/SubViews/ArmorBar.xml" xy="50,-8" size="900,10" group="n8_p782">
