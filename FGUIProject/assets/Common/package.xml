@@ -10,6 +10,8 @@
     <image id="q2wks" name="blood3.png" path="/Res/" exported="true"/>
     <image id="q2wkt" name="blood1.png" path="/Res/" exported="true"/>
     <image id="q2wku" name="blood2.png" path="/Res/" exported="true"/>
+    <image id="greyv" name="select.png" path="/Res/" exported="true"/>
+    <component id="greyw" name="CommonBtn1.xml" path="/Buttons/" exported="true"/>
   </resources>
   <publish name=""/>
 </packageDescription>

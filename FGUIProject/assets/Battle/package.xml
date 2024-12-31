@@ -35,6 +35,12 @@
     <image id="nliz10" name="getevillight.png" path="/Res/"/>
     <image id="nliz11" name="getkindlight.png" path="/Res/"/>
     <component id="q2wk13" name="BattleDeathView.xml" path="/Component/" exported="true"/>
+    <component id="grey14" name="BattleWorshipView.xml" path="/Component/" exported="true"/>
+    <image id="grey15" name="shuimo_bg.png" path="/Res/"/>
+    <image id="grey17" name="guodu.png" path="/Res/" scale="9grid" scale9grid="15,15,369,30"/>
+    <image id="grey18" name="line.png" path="/Res/"/>
+    <image id="grey19" name="censer.png" path="/Component/"/>
+    <image id="grey1a" name="smoke.png" path="/Component/"/>
   </resources>
   <publish name=""/>
 </packageDescription>
