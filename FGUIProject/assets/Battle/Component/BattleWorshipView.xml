@@ -5,7 +5,13 @@
     <image id="n0_grey" name="n0" src="grey15" fileName="Res/shuimo_bg.png" xy="0,0">
       <relation target="" sidePair="width-width,height-height"/>
     </image>
-    <graph id="n1_grey" name="n1" xy="0,0" size="1920,1080" alpha="0.6" type="rect" lineSize="0" fillColor="#ff000000"/>
+    <graph id="n1_grey" name="n1" xy="0,0" size="1920,1080" alpha="0.7" type="rect" lineSize="0" fillColor="#ff000000"/>
+    <graph id="n21_syi5" name="avatarHolder" xy="670,412" pivot="0.5,0.5" size="1114,829" visible="false" touchable="false" lineSize="0" fillColor="#00ffffff">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
+    <image id="n22_n2f5" name="n22" src="grey15" fileName="Res/shuimo_bg.png" xy="0,0" color="#5e5e5e">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
     <image id="n3_grey" name="n3" src="grey17" fileName="Res/guodu.png" xy="-1,0" size="860,1080" alpha="0.9">
       <relation target="" sidePair="height-height,left-left"/>
     </image>
@@ -48,9 +54,6 @@
     <group id="n19_grey" name="tipPanel" xy="132,938" size="328,149" advanced="true">
       <relation target="" sidePair="left-left,bottom-bottom"/>
     </group>
-    <graph id="n21_syi5" name="avatarHolder" xy="670,412" pivot="0.5,0.5" size="1114,829" visible="false" touchable="false" lineSize="0" fillColor="#00ffffff">
-      <relation target="" sidePair="center-center,middle-middle"/>
-    </graph>
   </displayList>
   <transition name="enter" autoPlay="true">
     <item time="0" type="Alpha" target="n0_grey" value="0"/>
@@ -58,7 +61,8 @@
     <item time="0" type="Alpha" target="n11_grey" value="0"/>
     <item time="0" type="Alpha" target="n12_grey" value="0"/>
     <item time="0" type="Alpha" target="n19_grey" value="0"/>
-    <item time="0" type="Alpha" target="n1_grey" tween="true" startValue="0" endValue="0.6" duration="6"/>
+    <item time="0" type="Alpha" target="n1_grey" tween="true" startValue="0" endValue="0.7" duration="6"/>
+    <item time="0" type="Alpha" target="n22_n2f5" tween="true" startValue="0" endValue="1" duration="6"/>
     <item time="0" type="Alpha" target="n4_grey" value="0"/>
     <item time="0" type="Alpha" target="n5_grey" tween="true" startValue="0" endValue="1" duration="6"/>
     <item time="0" type="Alpha" target="n6_grey" value="0"/>
@@ -67,20 +71,23 @@
     <item time="0" type="Alpha" target="n9_grey" value="0"/>
     <item time="0" type="Scale" target="n6_grey" value="1,1"/>
     <item time="0" type="Visible" target="n21_syi5" value="false"/>
+    <item time="0" type="Visible" target="n22_n2f5" value="true"/>
     <item time="0" type="XY" target="n10_grey" value="185,149"/>
     <item time="0" type="XY" target="n11_grey" value="210,212"/>
     <item time="0" type="XY" target="n3_grey" tween="true" startValue="-645,0" endValue="-1,0" duration="6"/>
+    <item time="6" type="Alpha" target="n0_grey" value="1"/>
     <item time="6" type="Alpha" target="n10_grey" tween="true" startValue="0" endValue="1" duration="6"/>
     <item time="6" type="Alpha" target="n11_grey" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="6" type="Alpha" target="n22_n2f5" tween="true" startValue="1" endValue="0" duration="6"/>
     <item time="6" type="Alpha" target="n4_grey" tween="true" startValue="0" endValue="1" duration="6"/>
     <item time="6" type="Alpha" target="n6_grey" tween="true" startValue="0" endValue="0.3" duration="6"/>
     <item time="6" type="Scale" target="n6_grey" tween="true" startValue="0.5,0.5" endValue="1,1" duration="6"/>
     <item time="6" type="Visible" target="n21_syi5" value="true"/>
     <item time="6" type="XY" target="n10_grey" tween="true" startValue="185,149" endValue="223,149" duration="6"/>
     <item time="6" type="XY" target="n11_grey" tween="true" startValue="210,212" endValue="234,212" duration="6"/>
-    <item time="12" type="Alpha" target="n0_grey" tween="true" startValue="0" endValue="1" duration="12"/>
     <item time="12" type="Alpha" target="n12_grey" tween="true" startValue="0" endValue="1" duration="6"/>
     <item time="12" type="Alpha" target="n7_grey" tween="true" startValue="0" endValue="1" duration="4"/>
+    <item time="12" type="Visible" target="n22_n2f5" value="false"/>
     <item time="14" type="Alpha" target="n8_grey" tween="true" startValue="0" endValue="1" duration="4"/>
     <item time="16" type="Alpha" target="n9_grey" tween="true" startValue="0" endValue="1" duration="4"/>
     <item time="18" type="Alpha" target="n19_grey" tween="true" startValue="0" endValue="1" duration="6"/>
