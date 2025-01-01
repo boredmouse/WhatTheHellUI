@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="1920,1080">
-  <controller name="c1" pages="0,,1,,2," selected="0"/>
+  <controller name="enterType" pages="0,,1,,2," selected="0"/>
   <displayList>
     <image id="n0_grey" name="n0" src="grey15" fileName="Res/shuimo_bg.png" xy="0,0">
       <relation target="" sidePair="width-width,height-height"/>
     </image>
     <graph id="n1_grey" name="n1" xy="0,0" size="1920,1080" alpha="0.6" type="rect" lineSize="0" fillColor="#ff000000"/>
-    <image id="n3_grey" name="n3" src="grey17" fileName="Res/guodu.png" xy="-1,0" size="860,1080" alpha="0.8">
+    <image id="n3_grey" name="n3" src="grey17" fileName="Res/guodu.png" xy="-1,0" size="860,1080" alpha="0.9">
       <relation target="" sidePair="height-height,left-left"/>
     </image>
     <image id="n4_grey" name="n4" src="grey18" fileName="Res/line.png" xy="89,252">
@@ -20,23 +20,23 @@
     </image>
     <component id="n7_grey" name="restBtn" src="greyw" fileName="Buttons/CommonBtn1.xml" pkg="5rz4pvnz" xy="76,368">
       <relation target="" sidePair="middle-middle,left-left"/>
-      <Button checked="true" title="休息" controller="c1" page="0"/>
+      <Button checked="true" title="休息" controller="enterType" page="0"/>
     </component>
     <component id="n8_grey" name="transportBtn" src="greyw" fileName="Buttons/CommonBtn1.xml" pkg="5rz4pvnz" xy="76,472">
       <relation target="" sidePair="middle-middle,left-left"/>
-      <Button title="移魂" controller="c1" page="1"/>
+      <Button title="移魂" controller="enterType" page="1"/>
     </component>
     <component id="n9_grey" name="exitBtn" src="greyw" fileName="Buttons/CommonBtn1.xml" pkg="5rz4pvnz" xy="76,576">
       <relation target="" sidePair="middle-middle,left-left"/>
-      <Button title="离开" controller="c1" page="2"/>
+      <Button title="离开" controller="enterType" page="2"/>
     </component>
-    <text id="n10_grey" name="ChapterNameTxt" xy="223,149" size="266,64" font="ui://5rz4pvnzneka8" fontSize="48" color="#d5c7b1" autoSize="shrink" text="地府下层">
+    <text id="n10_grey" name="chapterNameTxt" xy="223,149" size="266,64" font="ui://5rz4pvnzneka8" fontSize="48" color="#d5c7b1" autoSize="shrink" text="地府下层">
       <relation target="" sidePair="middle-middle,left-left"/>
     </text>
-    <text id="n11_grey" name="StageNameTxt" xy="234,212" size="88,39" font="ui://5rz4pvnzneka8" fontSize="28" color="#d5c7b1" text="修容阁">
+    <text id="n11_grey" name="stageNameTxt" xy="234,212" size="88,39" font="ui://5rz4pvnzneka8" fontSize="28" color="#d5c7b1" text="修容阁">
       <relation target="" sidePair="middle-middle,left-left"/>
     </text>
-    <text id="n12_grey" name="DescTxt" xy="106,266" size="351,73" font="ui://5rz4pvnzneka8" fontSize="25" color="#b59e7b" autoSize="shrink" text="恢复元气，补满酒水，同时会吸引亡魂前来">
+    <text id="n12_grey" name="descTxt" xy="106,266" size="351,73" font="ui://5rz4pvnzneka8" fontSize="25" color="#b59e7b" autoSize="shrink" text="恢复元气，补满酒水，同时会吸引亡魂前来">
       <relation target="" sidePair="middle-middle,left-left"/>
     </text>
     <image id="n14_grey" name="n14" src="hs66o" fileName="Res/keyBG.png" xy="132,938" size="233,149" group="n19_grey" scale="0.3,0.3" color="#999999"/>
@@ -48,6 +48,9 @@
     <group id="n19_grey" name="tipPanel" xy="132,938" size="328,149" advanced="true">
       <relation target="" sidePair="left-left,bottom-bottom"/>
     </group>
+    <graph id="n21_syi5" name="avatarHolder" xy="670,412" pivot="0.5,0.5" size="1114,829" visible="false" touchable="false" lineSize="0" fillColor="#00ffffff">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </graph>
   </displayList>
   <transition name="enter" autoPlay="true">
     <item time="0" type="Alpha" target="n0_grey" value="0"/>
@@ -55,7 +58,7 @@
     <item time="0" type="Alpha" target="n11_grey" value="0"/>
     <item time="0" type="Alpha" target="n12_grey" value="0"/>
     <item time="0" type="Alpha" target="n19_grey" value="0"/>
-    <item time="0" type="Alpha" target="n1_grey" tween="true" startValue="0" endValue="0.6" duration="12"/>
+    <item time="0" type="Alpha" target="n1_grey" tween="true" startValue="0" endValue="0.6" duration="6"/>
     <item time="0" type="Alpha" target="n4_grey" value="0"/>
     <item time="0" type="Alpha" target="n5_grey" tween="true" startValue="0" endValue="1" duration="6"/>
     <item time="0" type="Alpha" target="n6_grey" value="0"/>
@@ -63,14 +66,16 @@
     <item time="0" type="Alpha" target="n8_grey" value="0"/>
     <item time="0" type="Alpha" target="n9_grey" value="0"/>
     <item time="0" type="Scale" target="n6_grey" value="1,1"/>
+    <item time="0" type="Visible" target="n21_syi5" value="false"/>
     <item time="0" type="XY" target="n10_grey" value="185,149"/>
     <item time="0" type="XY" target="n11_grey" value="210,212"/>
     <item time="0" type="XY" target="n3_grey" tween="true" startValue="-645,0" endValue="-1,0" duration="6"/>
     <item time="6" type="Alpha" target="n10_grey" tween="true" startValue="0" endValue="1" duration="6"/>
     <item time="6" type="Alpha" target="n11_grey" tween="true" startValue="0" endValue="1" duration="6"/>
     <item time="6" type="Alpha" target="n4_grey" tween="true" startValue="0" endValue="1" duration="6"/>
-    <item time="6" type="Alpha" target="n6_grey" tween="true" startValue="0" endValue="0.5" duration="6"/>
+    <item time="6" type="Alpha" target="n6_grey" tween="true" startValue="0" endValue="0.3" duration="6"/>
     <item time="6" type="Scale" target="n6_grey" tween="true" startValue="0.5,0.5" endValue="1,1" duration="6"/>
+    <item time="6" type="Visible" target="n21_syi5" value="true"/>
     <item time="6" type="XY" target="n10_grey" tween="true" startValue="185,149" endValue="223,149" duration="6"/>
     <item time="6" type="XY" target="n11_grey" tween="true" startValue="210,212" endValue="234,212" duration="6"/>
     <item time="12" type="Alpha" target="n0_grey" tween="true" startValue="0" endValue="1" duration="12"/>
