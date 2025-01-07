@@ -41,6 +41,7 @@
     <image id="grey18" name="line.png" path="/Res/"/>
     <image id="grey19" name="censer.png" path="/Component/"/>
     <image id="grey1a" name="smoke.png" path="/Component/"/>
+    <image id="ame61b" name="eyeIcon.png" path="/Res/"/>
   </resources>
   <publish name=""/>
 </packageDescription>

@@ -1,14 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="200,30">
+  <controller name="eye" pages="0,,1," selected="1"/>
   <displayList>
-    <component id="n1_b048" name="hpDelayBar" src="b048k" fileName="Component/SubViews/NpcHpDelayBar.xml" xy="0,0" pivot="0.5,0.5" anchor="true">
+    <component id="n1_b048" name="hpDelayBar" src="b048k" fileName="Component/SubViews/NpcHpDelayBar.xml" xy="0,0" pivot="0.5,0.5" anchor="true" group="n5_ame6">
       <ProgressBar value="100" max="100"/>
     </component>
-    <component id="n0_b048" name="hpBar" src="b048j" fileName="Component/SubViews/NpcHpBar.xml" xy="0,0" pivot="0.5,0.5" anchor="true">
+    <component id="n0_b048" name="hpBar" src="b048j" fileName="Component/SubViews/NpcHpBar.xml" xy="0,0" pivot="0.5,0.5" anchor="true" group="n5_ame6">
       <ProgressBar value="94" max="100"/>
     </component>
-    <component id="n2_b048" name="armorBar" src="b048l" fileName="Component/SubViews/ArmorBar.xml" xy="-68,7">
+    <component id="n2_b048" name="armorBar" src="b048l" fileName="Component/SubViews/ArmorBar.xml" xy="-68,7" group="n5_ame6">
       <ProgressBar value="50" max="100"/>
     </component>
+    <group id="n5_ame6" name="barNode" xy="-68,-7" size="135,24" advanced="true">
+      <relation target="" sidePair="left-left,top-top"/>
+    </group>
+    <image id="n3_ame6" name="eyeBack" src="ame61b" fileName="Res/eyeIcon.png" xy="-25,-24" size="50,15" group="n6_h4zr" color="#999999"/>
+    <image id="n4_ame6" name="eyeFront" src="ame61b" fileName="Res/eyeIcon.png" xy="-25,-24" size="50,15" group="n6_h4zr" color="#cf6222" fillMethod="hz">
+      <gearColor controller="eye" pages="0,1" values="#eee36e|#cf6222"/>
+    </image>
+    <group id="n6_h4zr" name="eyeNode" xy="-25,-24" size="50,15" advanced="true">
+      <relation target="" sidePair="left-left,top-top"/>
+    </group>
   </displayList>
 </component>
