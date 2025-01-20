@@ -10,7 +10,7 @@
       <relation target="" sidePair="center-center"/>
       <ProgressBar value="54" max="100"/>
     </component>
-    <text id="n2_p782" name="nameTxt" xy="450,3" size="99,42" fontSize="30" color="#ffffff" shadowColor="#000000" shadowOffset="2,2" text="大boss">
+    <text id="n2_p782" name="nameTxt" xy="453,3" size="92,42" font="ui://5rz4pvnzneka8" fontSize="30" color="#ffffff" shadowColor="#000000" shadowOffset="2,2" text="大boss">
       <relation target="" sidePair="center-center"/>
     </text>
     <component id="n3_p782" name="armorBar" src="b048l" fileName="Component/SubViews/ArmorBar.xml" xy="50,71" size="900,10">
