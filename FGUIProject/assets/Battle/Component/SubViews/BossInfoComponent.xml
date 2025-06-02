@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="1000,100">
   <displayList>
+    <image id="n9_o1v7" name="n9" src="o1v71p" fileName="Res/barRight3.png" xy="936,8" size="197,99" aspect="true" color="#cccccc"/>
+    <image id="n10_o1v7" name="n10" src="o1v71p" fileName="Res/barRight3.png" xy="64,8" size="197,99" aspect="true" scale="-1,1" color="#cccccc"/>
     <component id="n0_p782" name="hpDelayBar" src="rb75b" fileName="Component/SubViews/HpDelayBar.xml" xy="50,53" size="900,18">
       <relation target="" sidePair="center-center"/>
       <ProgressBar value="75" max="100"/>
@@ -8,30 +10,30 @@
     <component id="n1_p782" name="hpBar" src="rb75a" fileName="Component/SubViews/HpBar.xml" xy="50,53" size="900,18">
       <relation target="n0_p782" sidePair="left-left,top-top"/>
       <relation target="" sidePair="center-center"/>
-      <ProgressBar value="54" max="100"/>
+      <ProgressBar value="100" max="100"/>
     </component>
-    <text id="n2_p782" name="nameTxt" xy="453,3" size="92,42" font="ui://5rz4pvnzneka8" fontSize="30" color="#ffffff" shadowColor="#000000" shadowOffset="2,2" text="大boss">
-      <relation target="" sidePair="center-center"/>
+    <text id="n2_p782" name="nameTxt" xy="55,3" size="132,42" font="ui://5rz4pvnzneka8" fontSize="30" color="#ffffff" shadowColor="#000000" shadowOffset="2,2" text="岁女 梅儿">
+      <relation target="" sidePair="left-left"/>
     </text>
-    <component id="n3_p782" name="armorBar" src="b048l" fileName="Component/SubViews/ArmorBar.xml" xy="50,71" size="900,10">
+    <component id="n3_p782" name="armorBar" src="b048l" fileName="Component/SubViews/ArmorBar.xml" xy="50,80" size="900,10">
       <ProgressBar value="50" max="100"/>
     </component>
-    <component id="n4_p782" name="boss2HpDelayBar" src="rb75b" fileName="Component/SubViews/HpDelayBar.xml" xy="50,-26" size="900,18" group="n8_p782">
+    <component id="n4_p782" name="boss2HpDelayBar" src="rb75b" fileName="Component/SubViews/HpDelayBar.xml" xy="50,-34" size="900,18" group="n8_p782">
       <relation target="" sidePair="center-center"/>
       <ProgressBar value="75" max="100"/>
     </component>
-    <component id="n5_p782" name="boss2HpBar" src="rb75a" fileName="Component/SubViews/HpBar.xml" xy="50,-26" size="900,18" group="n8_p782">
+    <component id="n5_p782" name="boss2HpBar" src="rb75a" fileName="Component/SubViews/HpBar.xml" xy="50,-34" size="900,18" group="n8_p782">
       <relation target="n4_p782" sidePair="left-left,top-top"/>
       <relation target="" sidePair="center-center"/>
       <ProgressBar value="54" max="100"/>
     </component>
-    <text id="n6_p782" name="boss2NameTxt" xy="453,-71" size="92,42" group="n8_p782" font="ui://5rz4pvnzneka8" fontSize="30" color="#ffffff" shadowColor="#000000" shadowOffset="2,2" text="大boss">
+    <text id="n6_p782" name="boss2NameTxt" xy="55,-79" size="92,42" group="n8_p782" font="ui://5rz4pvnzneka8" fontSize="30" color="#ffffff" shadowColor="#000000" shadowOffset="2,2" text="大boss">
       <relation target="" sidePair="center-center"/>
     </text>
     <component id="n7_p782" name="boss2ArmorBar" src="b048l" fileName="Component/SubViews/ArmorBar.xml" xy="50,-8" size="900,10" group="n8_p782">
       <ProgressBar value="50" max="100"/>
     </component>
-    <group id="n8_p782" name="boss2Group" xy="50,-71" size="900,73" visible="false" advanced="true">
+    <group id="n8_p782" name="boss2Group" xy="50,-79" size="900,81" visible="false" advanced="true">
       <relation target="" sidePair="center-center,top-top"/>
     </group>
   </displayList>

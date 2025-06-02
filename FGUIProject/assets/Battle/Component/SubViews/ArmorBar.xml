@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="135,10" extention="ProgressBar">
   <displayList>
-    <graph id="n0_b048" name="n0" xy="0,0" size="135,10" type="rect" lineSize="0" lineColor="#ffa0a0a0" fillColor="#cc000000">
+    <image id="n2_o1v7" name="n2" src="o1v71o" fileName="Res/barBG1.png" xy="-9,-10" size="154,31">
+      <relation target="" sidePair="width-width,height-height%,center-center,middle-middle"/>
+    </image>
+    <graph id="n0_b048" name="n0" xy="3,2" size="129,6" type="rect" lineSize="0" lineColor="#ffa0a0a0" fillColor="#cc333333">
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
     <graph id="n1_b048" name="bar" xy="3,2" size="129,6" type="rect" lineSize="0" fillColor="#ffcbc14a">

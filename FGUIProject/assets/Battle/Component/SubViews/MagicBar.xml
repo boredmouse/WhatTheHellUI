@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="500,20" extention="ProgressBar">
+<component size="500,18" extention="ProgressBar">
   <displayList>
-    <image id="n3_o1v7" name="n3" src="o1v71o" fileName="Res/barBG1.png" xy="-10,-10" size="521,41">
+    <image id="n4_o1v7" name="n4" src="o1v71o" fileName="Res/barBG1.png" xy="-10,-10" size="520,39">
       <relation target="" sidePair="width-width,height-height"/>
     </image>
-    <graph id="n0_rb75" name="n0" xy="2,2" size="496,16" type="rect" lineSize="0" lineColor="#e61c1c1c" fillColor="#cc333333">
+    <graph id="n0_rb75" name="n0" xy="2,2" size="496,14" type="rect" lineSize="0" lineColor="#e61c1c1c" fillColor="#cc333333">
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <graph id="n2_e5ni" name="lack" xy="0,0" size="500,20" visible="false" type="rect" lineSize="0" lineColor="#e61c1c1c" fillColor="#4cff0000">
+    <graph id="n2_e5ni" name="lack" xy="0,0" size="500,18" visible="false" type="rect" lineSize="0" lineColor="#e61c1c1c" fillColor="#4cff0000">
       <relation target="" sidePair="width-width,height-height"/>
     </graph>
-    <image id="n1_rb75" name="bar" src="b048h" fileName="Res/staminaBar.png" xy="2,2" size="496,16" fillMethod="hz">
+    <image id="n1_rb75" name="bar" src="o1v71l" fileName="Res/magicBar.png" xy="2,2" size="496,14" fillMethod="hz">
       <relation target="" sidePair="width-width,height-height"/>
     </image>
   </displayList>

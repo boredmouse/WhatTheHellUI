@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="69,72">
+  <displayList>
+    <graph id="n6_o1v7" name="n6" xy="35,36" pivot="0.5,0.5" anchor="true" size="60,60" rotation="45" type="rect" lineSize="2" lineColor="#ff999999" fillColor="#a8000000">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </graph>
+    <loader id="n3_o1v7" name="iconLoader" xy="35,24" pivot="0.5,0.5" anchor="true" size="60,60" url="ui://j2wnr1cqkc331" fill="scale">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </loader>
+    <text id="n7_o1v7" name="numTxt" xy="26,41" size="21,35" fontSize="25" color="#ffffff" autoSize="none" shadowColor="#000000" shadowOffset="1,1" text="3">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </text>
+  </displayList>
+</component>

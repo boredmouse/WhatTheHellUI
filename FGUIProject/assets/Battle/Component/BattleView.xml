@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="1920,1080">
+<component size="1920,1080" designImage="ui://68x10utgo1v71h" designImageAlpha="100">
   <displayList>
-    <component id="n3_hlmx" name="ControlTipLeft" src="hlmx2" fileName="Component/SubViews/ScreenContrlTipComponent.xml" xy="6,187" size="500,500" scale="0.8,0.8" touchable="false">
+    <component id="n3_hlmx" name="ControlTipLeft" src="hlmx2" fileName="Component/SubViews/ScreenContrlTipComponent.xml" xy="6,229" size="500,500" scale="0.8,0.8" touchable="false">
       <relation target="" sidePair="left-left,top-top"/>
     </component>
-    <component id="n4_rb75" name="PlayerInfoComp" src="rb759" fileName="Component/SubViews/PlayerInfoComponent.xml" xy="59,39" touchable="false">
+    <component id="n4_rb75" name="PlayerInfoComp" src="rb759" fileName="Component/SubViews/PlayerInfoComponent.xml" xy="8,9" touchable="false">
       <relation target="" sidePair="left-left,bottom-bottom"/>
     </component>
     <component id="n5_p782" name="BossInfoComp" src="p782m" fileName="Component/SubViews/BossInfoComponent.xml" xy="464,951" visible="false" touchable="false">
@@ -16,5 +16,6 @@
     <component id="n10_kc33" name="GetItemTipComp" src="kc33u" fileName="Component/SubPanel/GetItemPanel.xml" xy="1401,417" touchable="false">
       <relation target="" sidePair="right-right,top-top"/>
     </component>
+    <component id="n11_o1v7" name="n11" src="o1v71j" fileName="Component/SubViews/DrinkNumComponent.xml" xy="78,951"/>
   </displayList>
 </component>

@@ -1,15 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="800,200">
+<component size="800,300">
+  <controller name="barNum" pages="0,two,1,three" selected="1"/>
   <displayList>
-    <component id="n1_rb75" name="hpDelayBar" src="rb75b" fileName="Component/SubViews/HpDelayBar.xml" xy="17,23" size="300,26">
-      <ProgressBar value="75" max="100"/>
+    <component id="n1_rb75" name="hpDelayBar" src="rb75b" fileName="Component/SubViews/HpDelayBar.xml" xy="155,82" size="300,26">
+      <gearXY controller="barNum" pages="0,1" values="155,100|155,82"/>
+      <relation target="" sidePair="left-left"/>
+      <ProgressBar value="84" max="100"/>
     </component>
-    <component id="n0_rb75" name="hpBar" src="rb75a" fileName="Component/SubViews/HpBar.xml" xy="17,23" size="300,26">
+    <component id="n0_rb75" name="hpBar" src="rb75a" fileName="Component/SubViews/HpBar.xml" xy="155,82" size="300,26">
+      <gearXY controller="barNum" pages="0,1" values="155,100|155,82"/>
       <relation target="n1_rb75" sidePair=""/>
-      <ProgressBar value="100" max="100"/>
+      <relation target="" sidePair="left-left"/>
+      <ProgressBar value="64" max="100"/>
     </component>
-    <component id="n2_rb75" name="staminaBar" src="rb75c" fileName="Component/SubViews/StaminaBar.xml" xy="17,55" size="180,20">
-      <ProgressBar value="100" max="100"/>
+    <component id="n2_rb75" name="staminaBar" src="rb75c" fileName="Component/SubViews/StaminaBar.xml" xy="155,115" size="300,18">
+      <gearXY controller="barNum" pages="0,1" values="155,135|155,115"/>
+      <relation target="" sidePair="left-left"/>
+      <ProgressBar value="59" max="100"/>
     </component>
+    <component id="n4_o1v7" name="magicBar" src="o1v71c" fileName="Component/SubViews/MagicBar.xml" xy="155,142" size="300,16">
+      <gearDisplay controller="barNum" pages="1"/>
+      <gearXY controller="barNum" pages="0,1" values="155,136|155,142"/>
+      <relation target="" sidePair="left-left"/>
+      <ProgressBar value="85" max="100"/>
+    </component>
+    <component id="n6_o1v7" name="drinkNumNode" src="o1v71j" fileName="Component/SubViews/DrinkNumComponent.xml" xy="185,16" scale="0.8,0.8" visible="false"/>
+    <image id="n9_o1v7" name="n9" src="o1v71k" fileName="Res/ChiWen1_1.png" xy="14,3" size="168,166" aspect="true" color="#deddd3">
+      <relation target="" sidePair="left-left,top-top"/>
+    </image>
+    <image id="n10_o1v7" name="n10" src="o1v71m" fileName="Res/barRight2.png" xy="453,108" size="70,33" aspect="true" color="#e5e2da">
+      <relation target="n2_rb75" sidePair="middle-middle,left-right"/>
+    </image>
+    <image id="n11_o1v7" name="n11" src="o1v71m" fileName="Res/barRight2.png" xy="453,135" size="66,31" aspect="true" color="#e5e2da">
+      <gearDisplay controller="barNum" pages="1"/>
+      <relation target="n4_o1v7" sidePair="middle-middle,left-right"/>
+    </image>
+    <image id="n12_o1v7" name="n12" src="o1v71n" fileName="Res/barRight1.png" xy="455,61" size="107,57" aspect="true" color="#e5e2da">
+      <relation target="n0_rb75" sidePair="middle-middle,left-right"/>
+    </image>
   </displayList>
 </component>

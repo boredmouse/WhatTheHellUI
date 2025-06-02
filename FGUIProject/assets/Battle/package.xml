@@ -39,9 +39,20 @@
     <image id="grey15" name="shuimo_bg.png" path="/Res/"/>
     <image id="grey17" name="guodu.png" path="/Res/" scale="9grid" scale9grid="15,15,369,30"/>
     <image id="grey18" name="line.png" path="/Res/"/>
-    <image id="grey19" name="censer.png" path="/Component/"/>
-    <image id="grey1a" name="smoke.png" path="/Component/"/>
+    <image id="grey19" name="censer.png" path="/Res/"/>
+    <image id="grey1a" name="smoke.png" path="/Res/"/>
     <image id="ame61b" name="eyeIcon.png" path="/Res/"/>
+    <component id="o1v71c" name="MagicBar.xml" path="/Component/SubViews/"/>
+    <image id="o1v71f" name="ChiWen1_2.png" path="/Res/"/>
+    <image id="o1v71h" name="微信图片_20250514170812.png" path="/Res/"/>
+    <image id="o1v71i" name="微信图片_20250424102017.png" path="/Res/"/>
+    <component id="o1v71j" name="DrinkNumComponent.xml" path="/Component/SubViews/"/>
+    <image id="o1v71k" name="ChiWen1_1.png" path="/Res/"/>
+    <image id="o1v71l" name="magicBar.png" path="/Res/"/>
+    <image id="o1v71m" name="barRight2.png" path="/Res/"/>
+    <image id="o1v71n" name="barRight1.png" path="/Res/"/>
+    <image id="o1v71o" name="barBG1.png" path="/Res/" scale="9grid" scale9grid="18,13,79,17"/>
+    <image id="o1v71p" name="barRight3.png" path="/Res/"/>
   </resources>
   <publish name=""/>
 </packageDescription>
