@@ -16,6 +16,6 @@
     <component id="n10_kc33" name="GetItemTipComp" src="kc33u" fileName="Component/SubPanel/GetItemPanel.xml" xy="1401,417" touchable="false">
       <relation target="" sidePair="right-right,top-top"/>
     </component>
-    <component id="n11_o1v7" name="n11" src="o1v71j" fileName="Component/SubViews/DrinkNumComponent.xml" xy="78,951"/>
+    <component id="n11_o1v7" name="n11" src="o1v71j" fileName="Component/SubViews/DrinkNumComponent.xml" xy="85,928"/>
   </displayList>
 </component>
