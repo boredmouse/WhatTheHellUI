@@ -54,6 +54,8 @@
     <image id="o1v71o" name="barBG1.png" path="/Res/" scale="9grid" scale9grid="18,13,79,17"/>
     <image id="o1v71p" name="barRight3.png" path="/Res/"/>
     <image id="o1v71s" name="recoverBG3.png" path="/Res/"/>
+    <image id="o1v71t" name="blockMateBG.png" path="/Res/"/>
+    <component id="o1v71u" name="BlockMateComponent.xml" path="/Component/SubViews/"/>
   </resources>
   <publish name=""/>
 </packageDescription>

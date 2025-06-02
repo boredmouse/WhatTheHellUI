@@ -17,5 +17,7 @@
       <relation target="" sidePair="right-right,top-top"/>
     </component>
     <component id="n11_o1v7" name="n11" src="o1v71j" fileName="Component/SubViews/DrinkNumComponent.xml" xy="85,928"/>
+    <component id="n12_o1v7" name="n12" src="o1v71u" fileName="Component/SubViews/BlockMateComponent.xml" xy="189,950"/>
+    <component id="n13_o1v7" name="n13" src="o1v71u" fileName="Component/SubViews/BlockMateComponent.xml" xy="290,950"/>
   </displayList>
 </component>

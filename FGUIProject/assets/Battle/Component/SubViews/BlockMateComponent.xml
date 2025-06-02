@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,100">
+  <displayList>
+    <image id="n8_o1v7" name="n8" src="o1v71t" fileName="Res/blockMateBG.png" xy="51,49" pivot="0.5,0.5" anchor="true" size="104,104">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </image>
+    <loader id="n3_o1v7" name="iconLoader" xy="50,50" pivot="0.5,0.5" anchor="true" size="100,100" url="ui://j2wnr1cqo1v76" fill="scale">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </loader>
+  </displayList>
+</component>
