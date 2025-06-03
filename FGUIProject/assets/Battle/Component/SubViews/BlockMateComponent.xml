@@ -7,5 +7,10 @@
     <loader id="n3_o1v7" name="iconLoader" xy="50,50" pivot="0.5,0.5" anchor="true" size="100,100" url="ui://j2wnr1cqo1v76" fill="scale">
       <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
     </loader>
+    <image id="n12_8737" name="n12" src="873711" fileName="Res/keyBG2.png" pkg="5rz4pvnz" xy="67,72" size="23,23" group="n14_8737" aspect="true">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </image>
+    <image id="n13_8737" name="n13" src="87371x" fileName="Res/MouseRightBtn_2.png" xy="70,75" size="17,17" group="n14_8737" aspect="true"/>
+    <group id="n14_8737" name="n14" xy="67,72" size="23,23" visible="false" advanced="true"/>
   </displayList>
 </component>

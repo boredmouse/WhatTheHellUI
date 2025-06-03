@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="211,209">
+  <controller name="big" homePageType="specific" homePage="0" pages="0,,1," selected="0"/>
+  <displayList>
+    <component id="n16_8737" name="upSkill" src="87371y" fileName="Component/SubViews/GirlSkillComponent.xml" xy="56,0">
+      <gearXY controller="big" pages="1" values="56,-10" default="56,0"/>
+    </component>
+    <component id="n15_8737" name="downSkill" src="87371y" fileName="Component/SubViews/GirlSkillComponent.xml" xy="56,109">
+      <gearXY controller="big" pages="1" values="56,119" default="56,109"/>
+    </component>
+    <component id="n17_8737" name="leftSkill" src="87371y" fileName="Component/SubViews/GirlSkillComponent.xml" xy="0,54">
+      <gearXY controller="big" pages="1" values="-10,54" default="0,54"/>
+    </component>
+    <component id="n18_8737" name="rightSkill" src="87371y" fileName="Component/SubViews/GirlSkillComponent.xml" xy="111,54">
+      <gearXY controller="big" pages="1" values="121,54" default="111,54"/>
+    </component>
+    <image id="n20_8737" name="n20" src="873711" fileName="Res/keyBG2.png" pkg="5rz4pvnz" xy="82,91" size="47,26" group="n22_8737">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </image>
+    <text id="n21_8737" name="n21" xy="86,91" size="39,26" group="n22_8737" fontSize="18" align="center" vAlign="middle" bold="true" text="Ctrl">
+      <relation target="n20_8737" sidePair="center-center,middle-middle"/>
+    </text>
+    <group id="n22_8737" name="ctrlnode" xy="82,91" size="47,26" advanced="true">
+      <gearDisplay controller="big" pages="0"/>
+    </group>
+    <image id="n26_8737" name="n26" src="873711" fileName="Res/keyBG2.png" pkg="5rz4pvnz" xy="95,68" size="23,23" group="n28_8737" aspect="true">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </image>
+    <text id="n27_8737" name="n27" xy="96,67" size="21,26" group="n28_8737" fontSize="18" align="center" vAlign="middle" bold="true" text="W">
+      <relation target="n26_8737" sidePair="center-center,middle-middle"/>
+    </text>
+    <group id="n28_8737" name="n28" xy="95,67" size="23,26" advanced="true">
+      <gearDisplay controller="big" pages="1"/>
+    </group>
+    <image id="n29_8737" name="n29" src="873711" fileName="Res/keyBG2.png" pkg="5rz4pvnz" xy="95,115" size="23,23" group="n31_8737" aspect="true">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </image>
+    <text id="n30_8737" name="n30" xy="98,114" size="16,26" group="n31_8737" fontSize="18" align="center" vAlign="middle" bold="true" text="S">
+      <relation target="n29_8737" sidePair="center-center,middle-middle"/>
+    </text>
+    <group id="n31_8737" name="n31" xy="95,114" size="23,26" advanced="true">
+      <gearDisplay controller="big" pages="1"/>
+    </group>
+    <image id="n32_8737" name="n32" src="873711" fileName="Res/keyBG2.png" pkg="5rz4pvnz" xy="71,91" size="23,23" group="n34_8737" aspect="true">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </image>
+    <text id="n33_8737" name="n33" xy="74,90" size="16,26" group="n34_8737" fontSize="18" align="center" vAlign="middle" bold="true" text="A">
+      <relation target="n32_8737" sidePair="center-center,middle-middle"/>
+    </text>
+    <group id="n34_8737" name="n34" xy="71,90" size="23,26" advanced="true">
+      <gearDisplay controller="big" pages="1"/>
+    </group>
+    <image id="n35_8737" name="n35" src="873711" fileName="Res/keyBG2.png" pkg="5rz4pvnz" xy="120,91" size="23,23" group="n37_8737" aspect="true">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </image>
+    <text id="n36_8737" name="n36" xy="122,90" size="18,26" group="n37_8737" fontSize="18" align="center" vAlign="middle" bold="true" text="D">
+      <relation target="n35_8737" sidePair="center-center,middle-middle"/>
+    </text>
+    <group id="n37_8737" name="n37" xy="120,90" size="23,26" advanced="true">
+      <gearDisplay controller="big" pages="1"/>
+    </group>
+  </displayList>
+</component>

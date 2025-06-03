@@ -13,5 +13,12 @@
     <text id="n7_o1v7" name="numTxt" xy="24,68" size="54,35" font="ui://5rz4pvnzneka8" fontSize="25" color="#ffffff" align="center" autoSize="none" shadowColor="#000000" shadowOffset="1,1" text="5">
       <relation target="" sidePair="center-center,bottom-bottom"/>
     </text>
+    <image id="n9_8737" name="n9" src="873711" fileName="Res/keyBG2.png" pkg="5rz4pvnz" xy="78,80" size="23,23" group="n11_8737" aspect="true">
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </image>
+    <text id="n10_8737" name="n10" xy="81,79" size="17,26" group="n11_8737" fontSize="18" align="center" vAlign="middle" bold="true" text="R">
+      <relation target="n9_8737" sidePair="center-center,middle-middle"/>
+    </text>
+    <group id="n11_8737" name="n11" xy="78,79" size="23,26" visible="false" advanced="true"/>
   </displayList>
 </component>

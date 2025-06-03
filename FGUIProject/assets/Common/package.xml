@@ -12,6 +12,12 @@
     <image id="q2wku" name="blood2.png" path="/Res/" exported="true"/>
     <image id="greyv" name="select.png" path="/Res/" exported="true"/>
     <component id="greyw" name="CommonBtn1.xml" path="/Buttons/" exported="true"/>
+    <image id="8737x" name="square_light_2.png" path="/Res/" exported="true"/>
+    <image id="8737y" name="square_light_yellow.png" path="/Res/" exported="true"/>
+    <image id="8737z" name="suqare_light_blue.png" path="/Res/" exported="true"/>
+    <image id="873710" name="suqare_light_blue_2.png" path="/Res/" exported="true"/>
+    <image id="873711" name="keyBG2.png" path="/Res/" exported="true"/>
+    <image id="87371w" name="square_light_yellow_2.png" path="/Res/" exported="true"/>
   </resources>
   <publish name=""/>
 </packageDescription>
