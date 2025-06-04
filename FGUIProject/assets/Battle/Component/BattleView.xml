@@ -16,9 +16,9 @@
     <component id="n10_kc33" name="GetItemTipComp" src="kc33u" fileName="Component/SubPanel/GetItemPanel.xml" xy="1401,417" touchable="false">
       <relation target="" sidePair="right-right,top-top"/>
     </component>
-    <component id="n11_o1v7" name="n11" src="o1v71j" fileName="Component/SubViews/DrinkNumComponent.xml" xy="81,942"/>
-    <component id="n12_o1v7" name="n12" src="o1v71u" fileName="Component/SubViews/BlockMateComponent.xml" xy="190,950"/>
-    <component id="n13_o1v7" name="n13" src="87371v" fileName="Component/SubViews/SpSkillComponent.xml" xy="291,950"/>
-    <component id="n15_8737" name="n15" src="87371z" fileName="Component/SubPanel/GirlSkillPanel.xml" xy="67,720"/>
+    <component id="n11_o1v7" name="DrinkNumComp" src="o1v71j" fileName="Component/SubViews/DrinkNumComponent.xml" xy="81,942"/>
+    <component id="n12_o1v7" name="BlockMateComp" src="o1v71u" fileName="Component/SubViews/BlockMateComponent.xml" xy="190,950"/>
+    <component id="n13_o1v7" name="SpSkillComp" src="87371v" fileName="Component/SubViews/SpSkillComponent.xml" xy="291,950"/>
+    <component id="n15_8737" name="GirlSkillPanel" src="87371z" fileName="Component/SubPanel/GirlSkillPanel.xml" xy="67,720"/>
   </displayList>
 </component>

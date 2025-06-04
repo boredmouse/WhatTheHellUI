@@ -5,15 +5,8 @@
     <image id="n8_o1v7" name="n8" src="o1v71t" fileName="Res/blockMateBG.png" xy="51,49" pivot="0.5,0.5" anchor="true" size="104,104">
       <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
     </image>
-    <loader id="n15_8737" name="iconLoader" xy="50,50" pivot="0.5,0.5" anchor="true" size="100,100" url="ui://j2wnr1cq87377" fill="scale" clearOnPublish="true">
+    <loader id="n15_8737" name="iconLoader" xy="50,50" pivot="0.5,0.5" anchor="true" size="100,100" url="ui://zwcxldnyc4i18" fill="scale" clearOnPublish="true">
       <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
     </loader>
-    <image id="n16_8737" name="n16" src="873711" fileName="Res/keyBG2.png" pkg="5rz4pvnz" xy="67,72" size="23,23" group="n18_8737" aspect="true">
-      <relation target="" sidePair="right-right,bottom-bottom"/>
-    </image>
-    <text id="n17_8737" name="n17" xy="71,71" size="15,26" group="n18_8737" fontSize="18" align="center" vAlign="middle" bold="true" text="F">
-      <relation target="n16_8737" sidePair="center-center,middle-middle"/>
-    </text>
-    <group id="n18_8737" name="n18" xy="67,71" size="23,26" visible="false" advanced="true"/>
   </displayList>
 </component>
