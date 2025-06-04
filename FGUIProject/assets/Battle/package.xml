@@ -60,6 +60,7 @@
     <image id="87371x" name="MouseRightBtn_2.png" path="/Res/"/>
     <component id="87371y" name="GirlSkillComponent.xml" path="/Component/SubViews/"/>
     <component id="87371z" name="GirlSkillPanel.xml" path="/Component/SubPanel/"/>
+    <component id="khpv20" name="MagicDelayBar.xml" path="/Component/SubViews/"/>
   </resources>
   <publish name=""/>
 </packageDescription>
