@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="100,100">
-  <controller name="damageType" pages="0,普通,1,暴击,2,player" selected="2"/>
+  <controller name="damageType" pages="0,普通,1,暴击,2,player,3,加血" selected="3"/>
   <displayList>
-    <text id="n0_hu3d" name="numTxt" xy="0,0" pivot="0.5,0.5" anchor="true" size="76,42" fontSize="30" color="#c84949" align="center" vAlign="middle" bold="true" strokeColor="#492f11" strokeSize="2" text="1000">
-      <gearColor controller="damageType" pages="1,2" values="#eac636,#492f11|#c84949,#492f11" default="#ffffff,#492f11"/>
+    <text id="n0_hu3d" name="numTxt" xy="0,0" pivot="0.5,0.5" anchor="true" size="76,42" fontSize="30" color="#91ff33" align="center" vAlign="middle" bold="true" strokeColor="#492f11" strokeSize="2" text="1000">
+      <gearColor controller="damageType" pages="1,2,3" values="#eac636,#492f11|#c84949,#492f11|#91ff33,#492f11" default="#ffffff,#492f11"/>
       <relation target="" sidePair="center-center,middle-middle"/>
     </text>
   </displayList>

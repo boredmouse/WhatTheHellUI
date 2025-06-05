@@ -19,13 +19,14 @@
       <ProgressBar value="59" max="100"/>
     </component>
     <component id="n13_khpv" name="magicDelayBar" src="khpv20" fileName="Component/SubViews/MagicDelayBar.xml" xy="155,142" size="300,16">
+      <gearDisplay controller="barNum" pages="1"/>
       <ProgressBar value="65" max="100"/>
     </component>
     <component id="n4_o1v7" name="magicBar" src="o1v71c" fileName="Component/SubViews/MagicBar.xml" xy="155,142" size="300,16">
       <gearDisplay controller="barNum" pages="1"/>
       <gearXY controller="barNum" pages="0,1" values="155,136|155,142"/>
       <relation target="" sidePair="left-left"/>
-      <ProgressBar value="42" max="100"/>
+      <ProgressBar value="100" max="100"/>
     </component>
     <image id="n9_o1v7" name="n9" src="o1v71k" fileName="Res/ChiWen1_1.png" xy="14,3" size="168,166" aspect="true" color="#deddd3">
       <relation target="" sidePair="left-left,top-top"/>
@@ -40,5 +41,8 @@
     <image id="n12_o1v7" name="n12" src="o1v71n" fileName="Res/barRight1.png" xy="455,62" size="107,57" aspect="true" color="#e5e2da">
       <relation target="n0_rb75" sidePair="middle-middle,left-right"/>
     </image>
+    <text id="n14_rxd2" name="magicAddNumTxt" xy="477,131" size="57,35" visible="false" font="ui://5rz4pvnzneka8" fontSize="25" color="#ffffff" shadowColor="#000000" shadowOffset="1,1" text="+2.5">
+      <relation target="n13_khpv" sidePair="left-right"/>
+    </text>
   </displayList>
 </component>
