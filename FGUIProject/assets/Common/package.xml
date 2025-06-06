@@ -18,6 +18,9 @@
     <image id="873710" name="suqare_light_blue_2.png" path="/Res/" exported="true"/>
     <image id="873711" name="keyBG2.png" path="/Res/" exported="true"/>
     <image id="87371w" name="square_light_yellow_2.png" path="/Res/" exported="true"/>
+    <image id="oo9l1x" name="line_light.png" path="/Res/" exported="true"/>
+    <image id="oo9l1z" name="square_light_3.png" path="/Res/" exported="true"/>
+    <image id="oo9l20" name="square_light_1.png" path="/Res/" exported="true"/>
   </resources>
   <publish name=""/>
 </packageDescription>

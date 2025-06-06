@@ -61,6 +61,7 @@
     <component id="87371y" name="GirlSkillComponent.xml" path="/Component/SubViews/"/>
     <component id="87371z" name="GirlSkillPanel.xml" path="/Component/SubPanel/"/>
     <component id="khpv20" name="MagicDelayBar.xml" path="/Component/SubViews/"/>
+    <component id="oo9l22" name="CD_Bar.xml" path="/Component/SmallComp/"/>
   </resources>
   <publish name=""/>
 </packageDescription>
