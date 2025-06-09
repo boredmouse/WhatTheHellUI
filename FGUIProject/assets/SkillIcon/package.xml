@@ -7,6 +7,8 @@
     <image id="c4i16" name="skill_defence.png" path="/Res/" exported="true"/>
     <image id="c4i17" name="skill_defenceUp.png" path="/Res/" exported="true"/>
     <image id="c4i18" name="skill_attackUp.png" path="/Res/" exported="true"/>
+    <image id="ou6pa" name="buff_defence.png" path="/Res/" exported="true"/>
+    <image id="ou6pb" name="buff_attack.png" path="/Res/" exported="true"/>
   </resources>
   <publish name=""/>
 </packageDescription>

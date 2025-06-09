@@ -62,6 +62,8 @@
     <component id="87371z" name="GirlSkillPanel.xml" path="/Component/SubPanel/"/>
     <component id="khpv20" name="MagicDelayBar.xml" path="/Component/SubViews/"/>
     <component id="oo9l22" name="CD_Bar.xml" path="/Component/SmallComp/"/>
+    <component id="ou6p23" name="BuffComponent.xml" path="/Component/SmallComp/" exported="true"/>
+    <image id="ou6p25" name="buffBG.png" path="/Res/"/>
   </resources>
   <publish name=""/>
 </packageDescription>

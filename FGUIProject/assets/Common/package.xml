@@ -21,6 +21,7 @@
     <image id="oo9l1x" name="line_light.png" path="/Res/" exported="true"/>
     <image id="oo9l1z" name="square_light_3.png" path="/Res/" exported="true"/>
     <image id="oo9l20" name="square_light_1.png" path="/Res/" exported="true"/>
+    <image id="ou6p21" name="upArrow.png" path="/Res/" exported="true"/>
   </resources>
   <publish name=""/>
 </packageDescription>

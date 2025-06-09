@@ -44,5 +44,11 @@
     <text id="n14_rxd2" name="magicAddNumTxt" xy="477,131" size="57,35" visible="false" font="ui://5rz4pvnzneka8" fontSize="25" color="#ffffff" shadowColor="#000000" shadowOffset="1,1" text="+2.5">
       <relation target="n13_khpv" sidePair="left-right"/>
     </text>
+    <list id="n15_ou6p" name="buffList" xy="183,25" size="274,51" layout="row" selectionMode="none" colGap="3" defaultItem="ui://68x10utgou6p23" autoItemSize="false" autoClearItems="true" scrollItemToViewOnClick="false" foldInvisibleItems="true">
+      <relation target="" sidePair="left-left"/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
   </displayList>
 </component>

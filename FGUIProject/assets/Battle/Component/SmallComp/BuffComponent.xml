@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="50,50">
+  <controller name="buffType" homePageType="specific" homePage="1" pages="0,good,1,bad" selected="1"/>
+  <displayList>
+    <image id="n8_o1v7" name="n8" src="ou6p25" fileName="Res/buffBG.png" xy="25,25" pivot="0.5,0.5" anchor="true" size="54,54" color="#615d58">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </image>
+    <image id="n29_oo9l" name="cd" src="oo9l20" fileName="Res/square_light_1.png" pkg="5rz4pvnz" xy="25,25" pivot="0.5,0.5" anchor="true" size="54,54" alpha="0.6" color="#710000" fillMethod="vt" fillOrigin="1" fillAmount="46">
+      <gearColor controller="buffType" pages="0" values="#4e9900" default="#710000"/>
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </image>
+    <loader id="n15_8737" name="iconLoader" xy="25,25" pivot="0.5,0.5" anchor="true" size="50,50" url="ui://zwcxldnyou6pb" fill="scale" color="#e0dbcd" clearOnPublish="true">
+      <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </loader>
+    <image id="n31_ou6p" name="up" src="ou6p21" fileName="Res/upArrow.png" pkg="5rz4pvnz" xy="31,30" size="14,19" aspect="true">
+      <gearDisplay controller="buffType" pages="0"/>
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </image>
+    <image id="n32_ou6p" name="down" src="ou6p21" fileName="Res/upArrow.png" pkg="5rz4pvnz" xy="31,50" size="14,19" aspect="true" scale="1,-1" color="#d53535">
+      <gearDisplay controller="buffType" pages="1"/>
+      <relation target="" sidePair="right-right,bottom-bottom"/>
+    </image>
+  </displayList>
+</component>
