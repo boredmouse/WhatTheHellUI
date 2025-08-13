@@ -64,6 +64,10 @@
     <component id="oo9l22" name="CD_Bar.xml" path="/Component/SmallComp/"/>
     <component id="ou6p23" name="BuffComponent.xml" path="/Component/SmallComp/" exported="true"/>
     <image id="ou6p25" name="buffBG.png" path="/Res/"/>
+    <component id="wa5126" name="BattleDialogView.xml" path="/Component/"/>
+    <image id="wa5129" name="微信图片_2025-08-13_101352_519.png" path="/Res/"/>
+    <image id="wa512a" name="dialogBG3.png" path="/Res/"/>
+    <image id="wa512b" name="dialogAnjiao.png" path="/Res/"/>
   </resources>
   <publish name=""/>
 </packageDescription>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="1920,1080" designImage="ui://68x10utgo1v71h" designImageAlpha="100">
+<component size="1920,1080" designImage="ui://68x10utgo1v71i" designImageAlpha="100">
   <displayList>
     <component id="n3_hlmx" name="ControlTipLeft" src="hlmx2" fileName="Component/SubViews/ScreenContrlTipComponent.xml" xy="6,193" size="500,500" scale="0.8,0.8" touchable="false">
       <relation target="" sidePair="left-left,top-top"/>
@@ -21,4 +21,15 @@
     <component id="n13_o1v7" name="SpSkillComp" src="87371v" fileName="Component/SubViews/SpSkillComponent.xml" xy="291,950"/>
     <component id="n15_8737" name="GirlSkillPanel" src="87371z" fileName="Component/SubPanel/GirlSkillPanel.xml" xy="67,720"/>
   </displayList>
+  <transition name="hide">
+    <item time="0" type="Alpha" target="n10_kc33" tween="true" startValue="1" endValue="0" duration="6"/>
+    <item time="0" type="Alpha" target="n11_o1v7" tween="true" startValue="1" endValue="0" duration="6"/>
+    <item time="0" type="Alpha" target="n12_o1v7" tween="true" startValue="1" endValue="0" duration="6"/>
+    <item time="0" type="Alpha" target="n13_o1v7" tween="true" startValue="1" endValue="0" duration="6"/>
+    <item time="0" type="Alpha" target="n15_8737" tween="true" startValue="1" endValue="0" duration="6"/>
+    <item time="0" type="Alpha" target="n3_hlmx" tween="true" startValue="1" endValue="0" duration="6"/>
+    <item time="0" type="Alpha" target="n4_rb75" tween="true" startValue="1" endValue="0" duration="6"/>
+    <item time="0" type="Alpha" target="n5_p782" tween="true" startValue="1" endValue="0" duration="6"/>
+    <item time="0" type="Alpha" target="n9_kc33" tween="true" startValue="1" endValue="0" duration="6"/>
+  </transition>
 </component>

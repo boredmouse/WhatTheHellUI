@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="59sbratc">
+  <resources>
+    <image id="wa510" name="PuYangXia_Big.png" path="/Res/" exported="true"/>
+    <image id="wa511" name="Seven.png" path="/Res/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>
