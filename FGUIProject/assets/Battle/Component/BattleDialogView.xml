@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="1920,1080" designImage="ui://68x10utgo1v71i" designImageAlpha="100">
-  <controller name="side" pages="0,right,1,left" selected="1"/>
+  <controller name="side" pages="0,right,1,left" selected="0"/>
   <displayList>
     <image id="n12_wa51" name="n12" src="wa512b" fileName="Res/dialogAnjiao.png" xy="-190,-135" size="2311,1306" alpha="0.6">
       <relation target="" sidePair="width-width,height-height"/>
@@ -27,7 +27,7 @@
       <gearDisplay controller="side" pages="0"/>
       <relation target="n7_wa51" sidePair="right-right,bottom-bottom"/>
     </loader>
-    <richtext id="n2_wa51" name="rightContentTxt" xy="327,762" size="722,169" font="ui://5rz4pvnzneka8" fontSize="30" color="#deddd3" vAlign="middle" ubb="true" autoSize="shrink" text="这些堆着的全是跟你一样在阴间不知怎得又把自己弄死了的夯货。">
+    <richtext id="n2_wa51" name="rightContentTxt" xy="327,762" size="765,169" font="ui://5rz4pvnzneka8" fontSize="30" color="#deddd3" vAlign="middle" ubb="true" autoSize="shrink" text="这些堆着的全是跟你一样在阴间不知怎得又把自己弄死了的夯货。">
       <gearDisplay controller="side" pages="0"/>
       <relation target="n7_wa51" sidePair="left-left,top-top"/>
     </richtext>
@@ -44,20 +44,21 @@
       <gearDisplay controller="side" pages="1"/>
       <relation target="" sidePair="center-center,bottom-bottom"/>
     </image>
-    <loader id="n15_wa51" name="NpcIconLeft" xy="924,191" size="1052,1488" scale="-1,1" url="ui://59sbratcwa511" align="right" fill="scale">
+    <loader id="n15_wa51" name="NpcIconLeft" xy="1024,211" size="1092,1500" scale="-1,1" url="ui://59sbratcwa511" align="right" fill="scale">
       <gearDisplay controller="side" pages="1"/>
       <relation target="n17_wa51" sidePair="left-left,bottom-bottom"/>
     </loader>
-    <text id="n19_wa51" name="leftNpcNameTxt" xy="1611,640" pivot="1,0" anchor="true" size="109,48" font="ui://5rz4pvnzneka8" fontSize="35" color="#deddd3" align="right" text="濮阳霞">
+    <text id="n19_wa51" name="leftNpcNameTxt" xy="1611,640" pivot="1,0" anchor="true" size="74,48" font="ui://5rz4pvnzneka8" fontSize="35" color="#deddd3" align="right" text="阿七">
       <gearDisplay controller="side" pages="1"/>
       <relation target="n18_wa51" sidePair="middle-middle,right-right"/>
     </text>
-    <richtext id="n20_wa51" name="leftContentTxt" xy="851,762" size="722,169" font="ui://5rz4pvnzneka8" fontSize="30" color="#deddd3" vAlign="middle" ubb="true" autoSize="shrink" text="这些堆着的全是跟你一样在阴间不知怎得又把自己弄死了的夯货。">
+    <richtext id="n20_wa51" name="leftContentTxt" xy="808,762" size="765,169" font="ui://5rz4pvnzneka8" fontSize="30" color="#deddd3" vAlign="middle" ubb="true" autoSize="shrink" text="来吧，仔细观察我的动作">
       <gearDisplay controller="side" pages="1"/>
       <relation target="n17_wa51" sidePair="right-right,top-top"/>
     </richtext>
   </displayList>
   <transition name="contentNext">
+    <item time="0" type="Alpha" target="n20_wa51" tween="true" startValue="0" endValue="1" duration="12"/>
     <item time="0" type="Alpha" target="n2_wa51" tween="true" startValue="0" endValue="1" duration="12"/>
   </transition>
   <transition name="enter" autoPlay="true">
@@ -90,5 +91,33 @@
     <item time="12" type="Alpha" target="n20_wa51" tween="true" startValue="0" endValue="1" duration="6"/>
     <item time="12" type="Alpha" target="n2_wa51" tween="true" startValue="0" endValue="1" duration="6"/>
     <item time="18" type="Alpha" target="n14_wa51" tween="true" startValue="0" endValue="1" duration="6"/>
+  </transition>
+  <transition name="changeSide2">
+    <item time="0" type="Alpha" target="n0_wa51" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="0" type="Alpha" target="n15_wa51" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="0" type="Alpha" target="n17_wa51" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="0" type="Alpha" target="n18_wa51" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="0" type="Alpha" target="n19_wa51" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="0" type="Alpha" target="n20_wa51" value="0"/>
+    <item time="0" type="Alpha" target="n2_wa51" value="0"/>
+    <item time="0" type="Alpha" target="n3_wa51" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="0" type="Alpha" target="n4_wa51" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="0" type="Alpha" target="n7_wa51" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="0" type="XY" target="n18_wa51" tween="true" startValue="1641,595" endValue="1657,595" duration="6"/>
+    <item time="0" type="XY" target="n4_wa51" tween="true" startValue="288,594.5" endValue="262,594.5" duration="6"/>
+    <item time="6" type="Alpha" target="n20_wa51" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="6" type="Alpha" target="n2_wa51" tween="true" startValue="0" endValue="1" duration="6"/>
+  </transition>
+  <transition name="changeSide1">
+    <item time="0" type="Alpha" target="n0_wa51" tween="true" startValue="1" endValue="0" duration="6"/>
+    <item time="0" type="Alpha" target="n15_wa51" tween="true" startValue="1" endValue="0" duration="6"/>
+    <item time="0" type="Alpha" target="n17_wa51" tween="true" startValue="1" endValue="0" duration="6"/>
+    <item time="0" type="Alpha" target="n18_wa51" tween="true" startValue="1" endValue="0" duration="6"/>
+    <item time="0" type="Alpha" target="n19_wa51" tween="true" startValue="1" endValue="0" duration="6"/>
+    <item time="0" type="Alpha" target="n20_wa51" tween="true" startValue="1" endValue="0" duration="6"/>
+    <item time="0" type="Alpha" target="n2_wa51" tween="true" startValue="1" endValue="0" duration="6"/>
+    <item time="0" type="Alpha" target="n3_wa51" tween="true" startValue="1" endValue="0" duration="6"/>
+    <item time="0" type="Alpha" target="n4_wa51" tween="true" startValue="1" endValue="0" duration="6"/>
+    <item time="0" type="Alpha" target="n7_wa51" tween="true" startValue="1" endValue="0" duration="6"/>
   </transition>
 </component>
