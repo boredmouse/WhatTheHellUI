@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <packageDescription id="59sbratc">
   <resources>
-    <image id="wa510" name="PuYangXia_Big.png" path="/Res/" exported="true"/>
-    <image id="wa511" name="Seven.png" path="/Res/" exported="true"/>
+    <image id="ccgx4" name="hero_prison_prison.png" path="/Res/" exported="true"/>
+    <image id="ccgx5" name="PuYangXia_big.png" path="/Res/" exported="true"/>
+    <image id="ccgx6" name="AhQi_big.png" path="/Res/" exported="true"/>
   </resources>
   <publish name=""/>
 </packageDescription>

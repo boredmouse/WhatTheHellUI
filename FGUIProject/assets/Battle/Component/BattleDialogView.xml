@@ -23,7 +23,7 @@
       <gearDisplay controller="side" pages="0"/>
       <relation target="n4_wa51" sidePair="middle-middle,left-left"/>
     </text>
-    <loader id="n0_wa51" name="NpcIConRight" xy="1006,239" size="947,1081" url="ui://59sbratcwa510" fill="scale">
+    <loader id="n0_wa51" name="NpcIConRight" xy="1920,245" size="947,1081" scale="-1,1" url="ui://59sbratcccgx5" fill="scale">
       <gearDisplay controller="side" pages="0"/>
       <relation target="n7_wa51" sidePair="right-right,bottom-bottom"/>
     </loader>
@@ -44,7 +44,7 @@
       <gearDisplay controller="side" pages="1"/>
       <relation target="" sidePair="center-center,bottom-bottom"/>
     </image>
-    <loader id="n15_wa51" name="NpcIconLeft" xy="1024,211" size="1092,1500" scale="-1,1" url="ui://59sbratcwa511" align="right" fill="scale">
+    <loader id="n15_wa51" name="NpcIconLeft" xy="-587,173" size="1217,1593" url="ui://59sbratcccgx4" align="right" fill="scale">
       <gearDisplay controller="side" pages="1"/>
       <relation target="n17_wa51" sidePair="left-left,bottom-bottom"/>
     </loader>
