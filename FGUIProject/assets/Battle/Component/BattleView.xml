@@ -32,4 +32,15 @@
     <item time="0" type="Alpha" target="n5_p782" tween="true" startValue="1" endValue="0" duration="6"/>
     <item time="0" type="Alpha" target="n9_kc33" tween="true" startValue="1" endValue="0" duration="6"/>
   </transition>
+  <transition name="show">
+    <item time="0" type="Alpha" target="n10_kc33" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="0" type="Alpha" target="n11_o1v7" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="0" type="Alpha" target="n12_o1v7" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="0" type="Alpha" target="n13_o1v7" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="0" type="Alpha" target="n15_8737" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="0" type="Alpha" target="n3_hlmx" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="0" type="Alpha" target="n4_rb75" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="0" type="Alpha" target="n5_p782" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="0" type="Alpha" target="n9_kc33" tween="true" startValue="0" endValue="1" duration="6"/>
+  </transition>
 </component>
