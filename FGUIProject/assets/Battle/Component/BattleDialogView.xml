@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="1920,1080" designImage="ui://68x10utgo1v71i" designImageAlpha="100">
-  <controller name="side" pages="0,right,1,left" selected="1"/>
+  <controller name="side" pages="0,right,1,left" selected="0"/>
+  <controller name="choice" pages="0,,1," selected="0"/>
+  <controller name="select" pages="0,,1,,2," selected="0"/>
   <displayList>
     <graph id="n9_wa51" name="up" xy="0,-72" size="1920,180" type="rect" lineSize="0" fillColor="#ff000000">
       <relation target="" sidePair="width-width,top-top"/>
@@ -31,20 +33,16 @@
       <gearDisplay controller="side" pages="0"/>
       <relation target="n4_wa51" sidePair="middle-middle,left-left"/>
     </text>
-    <loader id="n0_wa51" name="NpcIConRight" xy="1920,245" size="947,1081" scale="-1,1" url="ui://59sbratcccgx5" fill="scale">
+    <loader id="n0_wa51" name="NpcIConRight" xy="1920,244" size="947,1081" scale="-1,1" url="ui://59sbratcccgx5" fill="scale" clearOnPublish="true">
       <gearDisplay controller="side" pages="0"/>
       <relation target="n7_wa51" sidePair="right-right,bottom-bottom"/>
     </loader>
     <richtext id="n2_wa51" name="rightContentTxt" xy="327,762" size="765,169" font="ui://5rz4pvnzneka8" fontSize="30" color="#deddd3" vAlign="middle" ubb="true" autoSize="shrink" text="这些堆着的全是跟你一样在阴间不知怎得又把自己弄死了的夯货。">
       <gearDisplay controller="side" pages="0"/>
+      <gearDisplay2 controller="choice" pages="0" condition="0"/>
       <relation target="n7_wa51" sidePair="left-left,top-top"/>
     </richtext>
-    <image id="n13_wa51" name="n13" src="hlmx0" fileName="Res/guodu.png" pkg="5rz4pvnz" xy="877,1016" size="165,55" group="n14_wa51"/>
-    <text id="n8_wa51" name="next" xy="908,1024" size="96,35" group="n14_wa51" font="ui://5rz4pvnzneka8" fontSize="25" color="#deddd3" text="按A继续"/>
-    <group id="n14_wa51" name="nextGroup" xy="877,1016" size="165,55" advanced="true">
-      <relation target="" sidePair="center-center,bottom-bottom"/>
-    </group>
-    <loader id="n15_wa51" name="NpcIconLeft" xy="-587,173" size="1217,1593" url="ui://59sbratcccgx4" align="right" fill="scale">
+    <loader id="n15_wa51" name="NpcIconLeft" xy="-91,244" size="1019,1081" url="ui://59sbratcccgx5" align="right" fill="scale" clearOnPublish="true">
       <gearDisplay controller="side" pages="1"/>
       <relation target="n17_wa51" sidePair="left-left,bottom-bottom"/>
     </loader>
@@ -54,11 +52,39 @@
     </text>
     <richtext id="n20_wa51" name="leftContentTxt" xy="808,762" size="765,169" font="ui://5rz4pvnzneka8" fontSize="30" color="#deddd3" vAlign="middle" ubb="true" autoSize="shrink" text="来吧，仔细观察我的动作">
       <gearDisplay controller="side" pages="1"/>
+      <gearDisplay2 controller="choice" pages="0" condition="0"/>
       <relation target="n17_wa51" sidePair="right-right,top-top"/>
     </richtext>
+    <component id="n21_dljd" name="choiceBtn1" src="greyw" fileName="Buttons/CommonBtn1.xml" pkg="5rz4pvnz" xy="388,742" group="n24_dljd">
+      <Button checked="true" title="交付“骨笛”" controller="select" page="0"/>
+    </component>
+    <component id="n22_dljd" name="choiceBtn2" src="greyw" fileName="Buttons/CommonBtn1.xml" pkg="5rz4pvnz" xy="388,823" group="n24_dljd">
+      <Button title="拒绝交付" controller="select" page="1"/>
+    </component>
+    <component id="n23_dljd" name="choiceBtn3" src="greyw" fileName="Buttons/CommonBtn1.xml" pkg="5rz4pvnz" xy="388,904" group="n24_dljd">
+      <Button title="结束对话" controller="select" page="2"/>
+    </component>
+    <group id="n24_dljd" name="choiceGroup" xy="388,742" size="420,258" advanced="true" layout="vt" lineGap="-15" excludeInvisibles="true">
+      <gearDisplay controller="choice" pages="1"/>
+      <gearXY controller="side" pages="1" values="929,742" default="388,742"/>
+      <relation target="n17_wa51" sidePair="center-center,middle-middle"/>
+    </group>
+    <image id="n13_wa51" name="n13" src="hlmx0" fileName="Res/guodu.png" pkg="5rz4pvnz" xy="877,1016" size="165,55" group="n14_wa51"/>
+    <text id="n8_wa51" name="next" xy="887,1024" size="146,35" group="n14_wa51" font="ui://5rz4pvnzneka8" fontSize="25" color="#deddd3" text="按Space继续"/>
+    <group id="n14_wa51" name="nextGroup" xy="877,1016" size="165,55" advanced="true">
+      <gearDisplay controller="choice" pages="0"/>
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </group>
+    <image id="n25_dljd" name="n25" src="hlmx0" fileName="Res/guodu.png" pkg="5rz4pvnz" xy="877,1016" size="165,55" group="n27_dljd"/>
+    <text id="n26_dljd" name="chooseTip" xy="887,1024" size="138,35" group="n27_dljd" font="ui://5rz4pvnzneka8" fontSize="25" color="#deddd3" text="按Enter选择"/>
+    <group id="n27_dljd" name="chooseGroup" xy="877,1016" size="165,55" advanced="true">
+      <gearDisplay controller="choice" pages="1"/>
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </group>
   </displayList>
   <transition name="contentNext">
     <item time="0" type="Alpha" target="n20_wa51" tween="true" startValue="0" endValue="1" duration="12"/>
+    <item time="0" type="Alpha" target="n24_dljd" tween="true" startValue="0" endValue="1" duration="12"/>
     <item time="0" type="Alpha" target="n2_wa51" tween="true" startValue="0" endValue="1" duration="12"/>
   </transition>
   <transition name="enter">
@@ -70,6 +96,8 @@
     <item time="0" type="Alpha" target="n18_wa51" value="0"/>
     <item time="0" type="Alpha" target="n19_wa51" value="0"/>
     <item time="0" type="Alpha" target="n20_wa51" value="0"/>
+    <item time="0" type="Alpha" target="n24_dljd" value="0"/>
+    <item time="0" type="Alpha" target="n27_dljd" value="0"/>
     <item time="0" type="Alpha" target="n2_wa51" value="0"/>
     <item time="0" type="Alpha" target="n3_wa51" value="0"/>
     <item time="0" type="Alpha" target="n4_wa51" value="0"/>
@@ -89,32 +117,43 @@
     <item time="6" type="XY" target="n18_wa51" tween="true" startValue="1631,595" endValue="1657,595" duration="6"/>
     <item time="6" type="XY" target="n4_wa51" tween="true" startValue="288,594.5" endValue="262.5,594.5" duration="6"/>
     <item time="12" type="Alpha" target="n20_wa51" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="12" type="Alpha" target="n24_dljd" tween="true" startValue="0" endValue="1" duration="6"/>
     <item time="12" type="Alpha" target="n2_wa51" tween="true" startValue="0" endValue="1" duration="6"/>
     <item time="18" type="Alpha" target="n14_wa51" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="18" type="Alpha" target="n27_dljd" tween="true" startValue="0" endValue="1" duration="6"/>
   </transition>
   <transition name="changeSide2">
     <item time="0" type="Alpha" target="n0_wa51" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="0" type="Alpha" target="n14_wa51" value="0"/>
     <item time="0" type="Alpha" target="n15_wa51" tween="true" startValue="0" endValue="1" duration="6"/>
     <item time="0" type="Alpha" target="n17_wa51" tween="true" startValue="0" endValue="1" duration="6"/>
     <item time="0" type="Alpha" target="n18_wa51" tween="true" startValue="0" endValue="1" duration="6"/>
     <item time="0" type="Alpha" target="n19_wa51" tween="true" startValue="0" endValue="1" duration="6"/>
     <item time="0" type="Alpha" target="n20_wa51" value="0"/>
+    <item time="0" type="Alpha" target="n24_dljd" value="0"/>
+    <item time="0" type="Alpha" target="n27_dljd" value="0"/>
     <item time="0" type="Alpha" target="n2_wa51" value="0"/>
     <item time="0" type="Alpha" target="n3_wa51" tween="true" startValue="0" endValue="1" duration="6"/>
     <item time="0" type="Alpha" target="n4_wa51" tween="true" startValue="0" endValue="1" duration="6"/>
     <item time="0" type="Alpha" target="n7_wa51" tween="true" startValue="0" endValue="1" duration="6"/>
     <item time="0" type="XY" target="n18_wa51" tween="true" startValue="1641,595" endValue="1657,595" duration="6"/>
     <item time="0" type="XY" target="n4_wa51" tween="true" startValue="288,594.5" endValue="262,594.5" duration="6"/>
+    <item time="6" type="Alpha" target="n14_wa51" tween="true" startValue="0" endValue="1" duration="6"/>
     <item time="6" type="Alpha" target="n20_wa51" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="6" type="Alpha" target="n24_dljd" tween="true" startValue="0" endValue="1" duration="6"/>
+    <item time="6" type="Alpha" target="n27_dljd" tween="true" startValue="0" endValue="1" duration="6"/>
     <item time="6" type="Alpha" target="n2_wa51" tween="true" startValue="0" endValue="1" duration="6"/>
   </transition>
   <transition name="changeSide1">
     <item time="0" type="Alpha" target="n0_wa51" tween="true" startValue="1" endValue="0" duration="6"/>
+    <item time="0" type="Alpha" target="n14_wa51" tween="true" startValue="1" endValue="0" duration="6"/>
     <item time="0" type="Alpha" target="n15_wa51" tween="true" startValue="1" endValue="0" duration="6"/>
     <item time="0" type="Alpha" target="n17_wa51" tween="true" startValue="1" endValue="0" duration="6"/>
     <item time="0" type="Alpha" target="n18_wa51" tween="true" startValue="1" endValue="0" duration="6"/>
     <item time="0" type="Alpha" target="n19_wa51" tween="true" startValue="1" endValue="0" duration="6"/>
     <item time="0" type="Alpha" target="n20_wa51" tween="true" startValue="1" endValue="0" duration="6"/>
+    <item time="0" type="Alpha" target="n24_dljd" tween="true" startValue="1" endValue="0" duration="6"/>
+    <item time="0" type="Alpha" target="n27_dljd" tween="true" startValue="1" endValue="0" duration="6"/>
     <item time="0" type="Alpha" target="n2_wa51" tween="true" startValue="1" endValue="0" duration="6"/>
     <item time="0" type="Alpha" target="n3_wa51" tween="true" startValue="1" endValue="0" duration="6"/>
     <item time="0" type="Alpha" target="n4_wa51" tween="true" startValue="1" endValue="0" duration="6"/>
