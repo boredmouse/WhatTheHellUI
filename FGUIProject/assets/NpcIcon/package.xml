@@ -4,6 +4,7 @@
     <image id="ccgx4" name="hero_prison_prison.png" path="/Res/" exported="true"/>
     <image id="ccgx5" name="PuYangXia_big.png" path="/Res/" exported="true"/>
     <image id="ccgx6" name="AhQi_big.png" path="/Res/" exported="true"/>
+    <image id="q20uc" name="npc_inHouse.png" path="/Res/" exported="true"/>
   </resources>
   <publish name=""/>
 </packageDescription>
