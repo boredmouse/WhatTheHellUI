@@ -5,7 +5,7 @@
     <image id="n5_neka" name="n5" src="hlmx0" fileName="Res/guodu.png" pkg="5rz4pvnz" xy="-65,-28" size="149,55" group="n4_rnp7" alpha="0.5">
       <relation target="n2_hs66" sidePair="rightext-right"/>
     </image>
-    <image id="n0_hs66" name="n0" src="hs66o" fileName="Res/keyBG.png" xy="-40,-1" pivot="0.5,0.5" anchor="true" group="n4_rnp7" scale="0.5,0.5">
+    <image id="n0_hs66" name="n0" src="hs66o" fileName="Res/keyBG.png" xy="-40,-1" pivot="0.5,0.5" anchor="true" group="n4_rnp7" scale="0.5,0.5" pkg="5rz4pvnz">
       <gearColor controller="state" pages="1" values="#b26262" default="#ffffff"/>
     </image>
     <text id="n1_hs66" name="n1" xy="-40,-2" pivot="0.5,0.5" anchor="true" size="23,44" group="n4_rnp7" font="ui://5rz4pvnzneka8" fontSize="32" color="#ffffff" bold="true" text="E">

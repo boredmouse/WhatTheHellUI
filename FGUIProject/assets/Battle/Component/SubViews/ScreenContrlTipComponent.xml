@@ -17,26 +17,26 @@
     <image id="n14_hlmx" name="n14" src="hlmx0" fileName="Res/guodu.png" pkg="5rz4pvnz" xy="104,264" size="173,55" group="n16_hlmx" alpha="0.5"/>
     <text id="n15_hlmx" name="n15" xy="136,271" size="116,39" group="n16_hlmx" font="ui://5rz4pvnzneka8" fontSize="28" color="#ffffff" text="切换道具"/>
     <group id="n16_hlmx" name="changeProp" xy="54,264" size="223,55"/>
-    <image id="n17_hs66" name="n17" src="hs66o" fileName="Res/keyBG.png" xy="55,334" size="100,100" group="n20_hs66" scale="0.5,0.5"/>
+    <image id="n17_hs66" name="n17" src="hs66o" fileName="Res/keyBG.png" xy="55,334" size="100,100" group="n20_hs66" scale="0.5,0.5" pkg="5rz4pvnz"/>
     <text id="n21_hs66" name="n21" xy="68,337" size="23,44" group="n20_hs66" fontSize="32" color="#ffffff" bold="true" text="F"/>
     <image id="n18_hs66" name="n18" src="hlmx0" fileName="Res/guodu.png" pkg="5rz4pvnz" xy="104,333" size="173,55" group="n20_hs66" alpha="0.5"/>
     <text id="n19_hs66" name="n19" xy="136,341" size="116,39" group="n20_hs66" font="ui://5rz4pvnzneka8" fontSize="28" color="#ffffff" text="特殊攻击"/>
     <group id="n20_hs66" name="specialAttack" xy="55,333" size="222,101"/>
-    <image id="n22_hs66" name="n22" src="hs66o" fileName="Res/keyBG.png" xy="53,404" size="210,100" group="n26_hs66" scale="0.5,0.5"/>
+    <image id="n22_hs66" name="n22" src="hs66o" fileName="Res/keyBG.png" xy="53,404" size="210,100" group="n26_hs66" scale="0.5,0.5" pkg="5rz4pvnz"/>
     <text id="n23_hs66" name="n23" xy="66,408" size="77,42" group="n26_hs66" fontSize="30" color="#ffffff" bold="true" text="Shift"/>
     <image id="n24_hs66" name="n24" src="hlmx0" fileName="Res/guodu.png" pkg="5rz4pvnz" xy="154,403" size="127,55" group="n26_hs66" alpha="0.5">
       <relation target="n25_hs66" sidePair="width-width,center-center,middle-middle"/>
     </image>
     <text id="n25_hs66" name="n25" xy="186,410" size="60,39" group="n26_hs66" font="ui://5rz4pvnzneka8" fontSize="28" color="#ffffff" text="瞬移"/>
     <group id="n26_hs66" name="teleport" xy="53,403" size="228,101"/>
-    <image id="n27_hnin" name="n27" src="hs66o" fileName="Res/keyBG.png" xy="54,471" size="240,100" group="n31_hnin" scale="0.5,0.5"/>
+    <image id="n27_hnin" name="n27" src="hs66o" fileName="Res/keyBG.png" xy="54,471" size="240,100" group="n31_hnin" scale="0.5,0.5" pkg="5rz4pvnz"/>
     <text id="n28_hnin" name="n28" xy="67,475" size="96,42" group="n31_hnin" fontSize="30" color="#ffffff" bold="true" text="Space"/>
     <image id="n29_hnin" name="n29" src="hlmx0" fileName="Res/guodu.png" pkg="5rz4pvnz" xy="155,470" size="127,55" group="n31_hnin" alpha="0.5">
       <relation target="n30_hnin" sidePair="width-width,center-center,middle-middle"/>
     </image>
     <text id="n30_hnin" name="n30" xy="187,477" size="60,39" group="n31_hnin" font="ui://5rz4pvnzneka8" fontSize="28" color="#ffffff" text="跳跃"/>
     <group id="n31_hnin" name="jump" xy="54,470" size="240,101"/>
-    <image id="n32_hnin" name="n32" src="hs66o" fileName="Res/keyBG.png" xy="53,535" size="242,100" group="n36_hnin" scale="0.5,0.5"/>
+    <image id="n32_hnin" name="n32" src="hs66o" fileName="Res/keyBG.png" xy="53,535" size="242,100" group="n36_hnin" scale="0.5,0.5" pkg="5rz4pvnz"/>
     <text id="n33_hnin" name="n33" xy="66,539" size="96,42" group="n36_hnin" fontSize="30" color="#ffffff" bold="true" text="Ctrl+F"/>
     <image id="n34_hnin" name="n34" src="hlmx0" fileName="Res/guodu.png" pkg="5rz4pvnz" xy="154,534" size="127,55" group="n36_hnin" alpha="0.5">
       <relation target="n35_hnin" sidePair="width-width,center-center,middle-middle"/>

@@ -31,10 +31,10 @@
     <image id="n9_o1v7" name="n9" src="o1v71k" fileName="Res/ChiWen1_1.png" xy="14,3" size="168,166" aspect="true" color="#deddd3">
       <relation target="" sidePair="left-left,top-top"/>
     </image>
-    <image id="n10_o1v7" name="n10" src="o1v71m" fileName="Res/barRight2.png" xy="453,109" size="70,33" aspect="true" color="#e5e2da">
+    <image id="n10_o1v7" name="n10" src="o1v71m" fileName="Res/barRight2.png" xy="453,109" size="70,33" aspect="true" color="#e5e2da" pkg="5rz4pvnz">
       <relation target="n2_rb75" sidePair="middle-middle,left-right"/>
     </image>
-    <image id="n11_o1v7" name="n11" src="o1v71m" fileName="Res/barRight2.png" xy="453,135" size="66,31" aspect="true" color="#e5e2da">
+    <image id="n11_o1v7" name="n11" src="o1v71m" fileName="Res/barRight2.png" xy="453,135" size="66,31" aspect="true" color="#e5e2da" pkg="5rz4pvnz">
       <gearDisplay controller="barNum" pages="1"/>
       <relation target="n4_o1v7" sidePair="middle-middle,left-right"/>
     </image>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080">
+  <displayList>
+    <image id="n4_jwuc" name="bg" src="jwuc22" fileName="Res/guideTipBG.png" pkg="5rz4pvnz" xy="960,217" pivot="0.5,0.5" anchor="true" size="1031,63">
+      <relation target="n1_jwuc" sidePair="width-width,height-height,center-center,middle-middle"/>
+    </image>
+    <text id="n1_jwuc" name="contentTxt" xy="959,216" pivot="0.5,0.5" anchor="true" size="593,35" font="ui://5rz4pvnzneka8" fontSize="25" color="#ffffff" text="超级长的内容测试 啦啦啦啦啦啦 哈哈哈哈哈哈哈哈哈">
+      <relation target="" sidePair="center-center,top-top"/>
+    </text>
+  </displayList>
+  <transition name="enter">
+    <item time="0" type="Alpha" target="n1_jwuc" tween="true" startValue="0" endValue="1" duration="12"/>
+    <item time="0" type="Alpha" target="n4_jwuc" tween="true" startValue="0" endValue="1" duration="12"/>
+    <item time="0" type="XY" target="n1_jwuc" tween="true" startValue="-,286" endValue="-,216" duration="12"/>
+  </transition>
+</component>

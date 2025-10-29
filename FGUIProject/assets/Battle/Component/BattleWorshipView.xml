@@ -45,8 +45,8 @@
     <text id="n12_grey" name="descTxt" xy="106,266" size="351,73" font="ui://5rz4pvnzneka8" fontSize="25" color="#b59e7b" autoSize="shrink" text="恢复元气，补满酒水，同时会吸引亡魂前来">
       <relation target="" sidePair="middle-middle,left-left"/>
     </text>
-    <image id="n14_grey" name="n14" src="hs66o" fileName="Res/keyBG.png" xy="132,938" size="233,149" group="n19_grey" scale="0.3,0.3" color="#999999"/>
-    <image id="n20_grey" name="n20" src="hs66o" fileName="Res/keyBG.png" xy="287,938" size="173,149" group="n19_grey" scale="0.3,0.3" color="#999999"/>
+    <image id="n14_grey" name="n14" src="hs66o" fileName="Res/keyBG.png" xy="132,938" size="233,149" group="n19_grey" scale="0.3,0.3" color="#999999" pkg="5rz4pvnz"/>
+    <image id="n20_grey" name="n20" src="hs66o" fileName="Res/keyBG.png" xy="287,938" size="173,149" group="n19_grey" scale="0.3,0.3" color="#999999" pkg="5rz4pvnz"/>
     <text id="n13_grey" name="ConfirmTxt" xy="208,944" size="50,33" group="n19_grey" font="ui://5rz4pvnzneka8" fontSize="23" color="#b59e7b" text="确定"/>
     <text id="n15_grey" name="n15" xy="142,947" size="50,26" group="n19_grey" fontSize="18" color="#999999" align="center" text="Enter"/>
     <text id="n17_grey" name="BackTxt" xy="348,944" size="50,33" group="n19_grey" font="ui://5rz4pvnzneka8" fontSize="23" color="#b59e7b" text="返回"/>

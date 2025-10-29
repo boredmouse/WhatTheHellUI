@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080">
+  <displayList>
+    <graph id="n0_c4gk" name="blackBG" xy="0,0" size="1920,1080" type="rect" lineSize="0" fillColor="#ff000000">
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n1_c4gk" name="blackUpBG" xy="0,0" size="1920,100" type="rect" lineSize="0" fillColor="#ff000000">
+      <relation target="" sidePair="width-width,top-top"/>
+    </graph>
+    <graph id="n2_c4gk" name="blackDownBG" xy="0,980" size="1920,100" type="rect" lineSize="0" fillColor="#ff000000">
+      <relation target="" sidePair="width-width,bottom-bottom"/>
+    </graph>
+    <image id="n3_c4gk" name="n3" src="hs66o" fileName="Res/keyBG.png" pkg="5rz4pvnz" xy="1655,1000" size="240,100" group="n7_c4gk" scale="0.5,0.5"/>
+    <text id="n4_c4gk" name="n4" xy="1668,1004" size="96,42" group="n7_c4gk" fontSize="30" color="#ffffff" bold="true" text="Space"/>
+    <image id="n5_c4gk" name="n5" src="hlmx0" fileName="Res/guodu.png" pkg="5rz4pvnz" xy="1756,999" size="155,55" group="n7_c4gk" alpha="0.5">
+      <relation target="n6_c4gk" sidePair="width-width,center-center,middle-middle"/>
+    </image>
+    <text id="n6_c4gk" name="n6" xy="1788,1006" size="88,39" group="n7_c4gk" font="ui://5rz4pvnzneka8" fontSize="28" color="#ffffff" text="下一页"/>
+    <group id="n7_c4gk" name="jump" xy="1655,999" size="256,101"/>
+  </displayList>
+</component>

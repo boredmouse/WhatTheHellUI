@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="1920,1080" designImage="ui://68x10utgo1v71i" designImageAlpha="100">
-  <controller name="side" pages="0,right,1,left" selected="0"/>
+  <controller name="side" pages="0,right,1,left" selected="1"/>
   <controller name="choice" pages="0,,1," selected="0"/>
   <controller name="select" pages="0,,1,,2," selected="0"/>
   <displayList>
@@ -29,20 +29,20 @@
       <gearDisplay controller="side" pages="1"/>
       <relation target="" sidePair="center-center,bottom-bottom"/>
     </image>
-    <text id="n3_wa51" name="rightNpcNameTxt" xy="309,640" size="109,48" font="ui://5rz4pvnzneka8" fontSize="35" color="#deddd3" text="濮阳霞">
+    <text id="n3_wa51" name="rightNpcNameTxt" xy="309,640" size="74,48" font="ui://5rz4pvnzneka8" fontSize="35" color="#deddd3" text="昊月">
       <gearDisplay controller="side" pages="0"/>
       <relation target="n4_wa51" sidePair="middle-middle,left-left"/>
     </text>
-    <loader id="n0_wa51" name="NpcIConRight" xy="1920,244" size="947,1081" scale="-1,1" url="ui://59sbratcccgx5" fill="scale" clearOnPublish="true">
+    <loader id="n0_wa51" name="NpcIConRight" xy="1766,155" size="508,1081" scale="-1,1" url="ui://59sbratcq20uc" fill="scale" clearOnPublish="true">
       <gearDisplay controller="side" pages="0"/>
       <relation target="n7_wa51" sidePair="right-right,bottom-bottom"/>
     </loader>
-    <richtext id="n2_wa51" name="rightContentTxt" xy="327,762" size="765,169" font="ui://5rz4pvnzneka8" fontSize="30" color="#deddd3" vAlign="middle" ubb="true" autoSize="shrink" text="这些堆着的全是跟你一样在阴间不知怎得又把自己弄死了的夯货。">
+    <richtext id="n2_wa51" name="rightContentTxt" xy="327,762" size="765,169" font="ui://5rz4pvnzneka8" fontSize="30" color="#deddd3" vAlign="middle" ubb="true" autoSize="shrink" autoClearText="true" text="就这样过了几年再也没人敢庆祝春节，反倒是每到这个日子，都躲在屋里不敢出来，村里的灵魂也越来越少了。">
       <gearDisplay controller="side" pages="0"/>
       <gearDisplay2 controller="choice" pages="0" condition="0"/>
       <relation target="n7_wa51" sidePair="left-left,top-top"/>
     </richtext>
-    <loader id="n15_wa51" name="NpcIconLeft" xy="-91,244" size="1019,1081" url="ui://59sbratcccgx5" align="right" fill="scale" clearOnPublish="true">
+    <loader id="n15_wa51" name="NpcIconLeft" xy="97,141" size="508,1081" url="ui://59sbratcq20uc" align="right" fill="scale" clearOnPublish="true">
       <gearDisplay controller="side" pages="1"/>
       <relation target="n17_wa51" sidePair="left-left,bottom-bottom"/>
     </loader>
@@ -55,16 +55,16 @@
       <gearDisplay2 controller="choice" pages="0" condition="0"/>
       <relation target="n17_wa51" sidePair="right-right,top-top"/>
     </richtext>
-    <component id="n21_dljd" name="choiceBtn1" src="greyw" fileName="Buttons/CommonBtn1.xml" pkg="5rz4pvnz" xy="388,742" group="n24_dljd">
+    <component id="n21_dljd" name="choiceBtn1" src="greyw" fileName="Buttons/CommonBtn1.xml" pkg="5rz4pvnz" xy="929,742" group="n24_dljd">
       <Button checked="true" title="交付“骨笛”" controller="select" page="0"/>
     </component>
-    <component id="n22_dljd" name="choiceBtn2" src="greyw" fileName="Buttons/CommonBtn1.xml" pkg="5rz4pvnz" xy="388,823" group="n24_dljd">
+    <component id="n22_dljd" name="choiceBtn2" src="greyw" fileName="Buttons/CommonBtn1.xml" pkg="5rz4pvnz" xy="929,823" group="n24_dljd">
       <Button title="拒绝交付" controller="select" page="1"/>
     </component>
-    <component id="n23_dljd" name="choiceBtn3" src="greyw" fileName="Buttons/CommonBtn1.xml" pkg="5rz4pvnz" xy="388,904" group="n24_dljd">
+    <component id="n23_dljd" name="choiceBtn3" src="greyw" fileName="Buttons/CommonBtn1.xml" pkg="5rz4pvnz" xy="929,904" group="n24_dljd">
       <Button title="结束对话" controller="select" page="2"/>
     </component>
-    <group id="n24_dljd" name="choiceGroup" xy="388,742" size="420,258" advanced="true" layout="vt" lineGap="-15" excludeInvisibles="true">
+    <group id="n24_dljd" name="choiceGroup" xy="929,742" size="420,258" advanced="true" layout="vt" lineGap="-15" excludeInvisibles="true">
       <gearDisplay controller="choice" pages="1"/>
       <gearXY controller="side" pages="1" values="929,742" default="388,742"/>
       <relation target="n17_wa51" sidePair="center-center,middle-middle"/>
