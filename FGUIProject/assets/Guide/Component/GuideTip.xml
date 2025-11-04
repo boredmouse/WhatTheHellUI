@@ -1,16 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="1920,1080">
+  <controller name="tipType" pages="0,tip,1,window" selected="1"/>
   <displayList>
     <image id="n4_jwuc" name="bg" src="jwuc22" fileName="Res/guideTipBG.png" pkg="5rz4pvnz" xy="960,217" pivot="0.5,0.5" anchor="true" size="1031,63">
+      <gearDisplay controller="tipType" pages="0"/>
       <relation target="n1_jwuc" sidePair="width-width,height-height,center-center,middle-middle"/>
     </image>
     <text id="n1_jwuc" name="contentTxt" xy="959,216" pivot="0.5,0.5" anchor="true" size="593,35" font="ui://5rz4pvnzneka8" fontSize="25" color="#ffffff" text="超级长的内容测试 啦啦啦啦啦啦 哈哈哈哈哈哈哈哈哈">
+      <gearDisplay controller="tipType" pages="0"/>
       <relation target="" sidePair="center-center,top-top"/>
     </text>
+    <image id="n7_q1de" name="bg2" src="q1de23" fileName="Res/tipBG.png" pkg="5rz4pvnz" xy="370,131" alpha="0.8">
+      <gearDisplay controller="tipType" pages="1"/>
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n8_q1de" name="n8" src="q1de24" fileName="Res/line_long.png" pkg="5rz4pvnz" xy="960,256" pivot="0.5,0" anchor="true">
+      <gearDisplay controller="tipType" pages="1"/>
+      <relation target="n7_q1de" sidePair="center-center,top-top"/>
+    </image>
+    <text id="n9_q1de" name="title" xy="923,188" size="74,48" font="ui://5rz4pvnzneka8" fontSize="35" color="#d5cdb4" align="center" text="格挡">
+      <gearDisplay controller="tipType" pages="1"/>
+      <relation target="n7_q1de" sidePair="center-center,top-top"/>
+    </text>
+    <richtext id="n10_q1de" name="contentTxt2" xy="493,294" size="933,123" font="ui://5rz4pvnzneka8" fontSize="25" color="#bab7b0" autoSize="shrink" text="格挡：按右键格挡，格挡时受到的敌人伤害减半&#xA;精准格挡：在受到敌人攻击前的瞬间进行格挡可以免受全部伤害，并减少敌人的韧性">
+      <gearDisplay controller="tipType" pages="1"/>
+      <relation target="n7_q1de" sidePair="center-center,top-top"/>
+    </richtext>
+    <image id="n11_q1de" name="n11" src="q1de24" fileName="Res/line_long.png" pkg="5rz4pvnz" xy="444,822">
+      <gearDisplay controller="tipType" pages="1"/>
+      <relation target="n7_q1de" sidePair="center-center,bottom-bottom"/>
+    </image>
+    <richtext id="n13_q1de" name="nextTxt" xy="1420,884" pivot="1,1" anchor="true" size="79,35" font="ui://5rz4pvnzneka8" fontSize="25" color="#bab7b0" text="下一页">
+      <gearDisplay controller="tipType" pages="1"/>
+      <relation target="n7_q1de" sidePair="right-right,bottom-bottom"/>
+    </richtext>
+    <loader id="n14_q1de" name="imageLoader" xy="455,418" size="1010,404" url="ui://4xd0kk2nq1de1" align="center" vAlign="middle" fill="scale">
+      <gearDisplay controller="tipType" pages="1"/>
+      <relation target="n7_q1de" sidePair="center-center,bottom-bottom"/>
+    </loader>
   </displayList>
   <transition name="enter">
     <item time="0" type="Alpha" target="n1_jwuc" tween="true" startValue="0" endValue="1" duration="12"/>
     <item time="0" type="Alpha" target="n4_jwuc" tween="true" startValue="0" endValue="1" duration="12"/>
     <item time="0" type="XY" target="n1_jwuc" tween="true" startValue="-,286" endValue="-,216" duration="12"/>
+  </transition>
+  <transition name="windowEnter">
+    <item time="0" type="Alpha" target="n10_q1de" value="0"/>
+    <item time="0" type="Alpha" target="n11_q1de" value="0"/>
+    <item time="0" type="Alpha" target="n13_q1de" value="0"/>
+    <item time="0" type="Alpha" target="n14_q1de" value="0"/>
+    <item time="0" type="Alpha" target="n7_q1de" tween="true" startValue="0.1" endValue="0.8" duration="6"/>
+    <item time="0" type="Alpha" target="n8_q1de" value="0"/>
+    <item time="0" type="Alpha" target="n9_q1de" value="0"/>
+    <item time="0" type="Scale" target="n8_q1de" value="0,1"/>
+    <item time="6" type="Alpha" target="n8_q1de" tween="true" startValue="0" endValue="1" duration="7"/>
+    <item time="6" type="Alpha" target="n9_q1de" tween="true" startValue="0.1" endValue="1" duration="7"/>
+    <item time="6" type="Scale" target="n8_q1de" tween="true" startValue="0.3,1" endValue="1,1" duration="7"/>
+    <item time="9" type="Alpha" target="n10_q1de" tween="true" startValue="0.1" endValue="1" duration="7"/>
+    <item time="9" type="Alpha" target="n14_q1de" tween="true" startValue="0" endValue="1" duration="7"/>
+    <item time="13" type="Alpha" target="n11_q1de" tween="true" startValue="0" endValue="1" duration="7"/>
+    <item time="18" type="Alpha" target="n13_q1de" tween="true" startValue="0" endValue="1" duration="6"/>
+  </transition>
+  <transition name="next">
+    <item time="0" type="Alpha" target="n10_q1de" tween="true" startValue="0" endValue="1" duration="8"/>
+    <item time="0" type="Alpha" target="n13_q1de" value="0"/>
+    <item time="0" type="Alpha" target="n14_q1de" value="0"/>
+    <item time="4" type="Alpha" target="n14_q1de" tween="true" startValue="0" endValue="1" duration="7"/>
+    <item time="7" type="Alpha" target="n13_q1de" tween="true" startValue="0" endValue="1" duration="5"/>
   </transition>
 </component>

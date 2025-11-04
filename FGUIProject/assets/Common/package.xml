@@ -25,6 +25,8 @@
     <image id="hs66o" name="keyBG.png" path="/Res/" exported="true" scale="9grid" scale9grid="25,25,50,50"/>
     <image id="o1v71m" name="barRight2.png" path="/Res/" exported="true"/>
     <image id="jwuc22" name="guideTipBG.png" path="/Res/" exported="true" scale="9grid" scale9grid="180,15,84,30"/>
+    <image id="q1de23" name="tipBG.png" path="/Res/" exported="true"/>
+    <image id="q1de24" name="line_long.png" path="/Res/" exported="true"/>
   </resources>
   <publish name=""/>
 </packageDescription>
