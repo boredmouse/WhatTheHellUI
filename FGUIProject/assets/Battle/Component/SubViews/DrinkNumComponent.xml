@@ -2,6 +2,12 @@
 <component size="100,100">
   <controller name="empty" pages="0,,1," selected="0"/>
   <displayList>
+    <image id="n12_aojv" name="n12" src="oo9l20" fileName="Res/square_light_1.png" pkg="5rz4pvnz" xy="-77,-80" pivot="0.5,0.5" scale="0.5,0.5" visible="false" alpha="0" color="#edcf2f">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
+    <image id="n13_aojv" name="n13" src="8737x" fileName="Res/square_light_2.png" pkg="5rz4pvnz" xy="-77,-78" pivot="0.5,0.5" scale="0.5,0.5" visible="false" alpha="0" color="#f8ffbf">
+      <relation target="" sidePair="center-center,middle-middle"/>
+    </image>
     <graph id="n6_o1v7" name="n6" xy="66,64" pivot="0.5,0.5" anchor="true" size="91,88" visible="false" rotation="45" type="rect" lineSize="2" lineColor="#ff999999" fillColor="#a8000000">
       <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
     </graph>
@@ -12,7 +18,7 @@
     <loader id="n3_o1v7" name="iconLoader" xy="51,41" pivot="0.5,0.5" anchor="true" size="88,88" url="ui://j2wnr1cqkc331" fill="scale">
       <relation target="" sidePair="width-width,height-height,center-center,middle-middle"/>
     </loader>
-    <text id="n7_o1v7" name="numTxt" xy="24,68" size="54,35" font="ui://5rz4pvnzneka8" fontSize="25" color="#ffffff" align="center" autoSize="none" shadowColor="#000000" shadowOffset="1,1" text="5">
+    <text id="n7_o1v7" name="numTxt" xy="24,68" pivot="0.5,0.5" size="54,35" font="ui://5rz4pvnzneka8" fontSize="25" color="#ffffff" align="center" autoSize="none" shadowColor="#000000" shadowOffset="1,1" text="5">
       <gearColor controller="empty" pages="1" values="#d64747,#000000" default="#ffffff,#000000"/>
       <relation target="" sidePair="center-center,bottom-bottom"/>
     </text>
@@ -24,4 +30,16 @@
     </text>
     <group id="n11_8737" name="n11" xy="78,79" size="23,26" visible="false" advanced="true"/>
   </displayList>
+  <transition name="addNum">
+    <item time="0" type="Alpha" target="n12_aojv" tween="true" startValue="0.5" endValue="0" duration="12"/>
+    <item time="0" type="Alpha" target="n13_aojv" tween="true" startValue="1" endValue="0" duration="12"/>
+    <item time="0" type="Scale" target="n12_aojv" tween="true" startValue="0.5,0.5" endValue="1,1" duration="12" ease="Bounce.Out"/>
+    <item time="0" type="Scale" target="n13_aojv" tween="true" startValue="0.5,0.5" endValue="1,1" duration="12" ease="Bounce.Out"/>
+    <item time="0" type="Scale" target="n7_o1v7" tween="true" startValue="1,1" endValue="1.5,1.5" duration="6"/>
+    <item time="0" type="Visible" target="n12_aojv" value="true"/>
+    <item time="0" type="Visible" target="n13_aojv" value="true"/>
+    <item time="6" type="Scale" target="n7_o1v7" tween="true" startValue="1.5,1.5" endValue="1,1" duration="6"/>
+    <item time="12" type="Visible" target="n12_aojv" value="false"/>
+    <item time="12" type="Visible" target="n13_aojv" value="false"/>
+  </transition>
 </component>
