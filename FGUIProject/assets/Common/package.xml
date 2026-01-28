@@ -28,6 +28,7 @@
     <image id="q1de23" name="tipBG.png" path="/Res/" exported="true"/>
     <image id="q1de24" name="line_long.png" path="/Res/" exported="true"/>
     <image id="aojv25" name="baseItemQuality.png" path="/Res/" exported="true"/>
+    <image id="cx2u29" name="baseItemQualityBG2.png" path="/Res/" exported="true"/>
   </resources>
   <publish name=""/>
 </packageDescription>

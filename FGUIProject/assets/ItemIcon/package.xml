@@ -8,6 +8,8 @@
     <image id="wn3w5" name="enhanceStoneBlue.png" path="/Res/" exported="true"/>
     <image id="o1v76" name="BlockMate_Bell.png" path="/Res/" exported="true"/>
     <image id="87377" name="sword_default.png" path="/Res/" exported="true"/>
+    <image id="cx2u8" name="zhijuzi.png" path="/Res/" exported="true"/>
+    <image id="cx2u9" name="book_fireBall.png" path="/Res/" exported="true"/>
   </resources>
   <publish name=""/>
 </packageDescription>
