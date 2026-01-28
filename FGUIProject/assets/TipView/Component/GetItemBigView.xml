@@ -27,7 +27,7 @@
     <text id="n4_aojv" name="closeTxt" xy="897,439" pivot="0.5,0" size="125,35" font="ui://5rz4pvnzneka8" fontSize="25" color="#deddd3" text="space 关闭">
       <relation target="n0_aojv" sidePair="center-center,top-bottom"/>
     </text>
-    <text id="n6_aojv" name="nameTxt" xy="926,300" pivot="0.5,0" size="68,44" font="ui://5rz4pvnzneka8" fontSize="32" color="#deddd3" text="拐枣">
+    <text id="n6_aojv" name="nameTxt" xy="910,300" pivot="0.5,0" size="100,44" font="ui://5rz4pvnzneka8" fontSize="32" color="#deddd3" text="万寿果">
       <relation target="n0_aojv" sidePair="center-center,top-bottom"/>
     </text>
     <text id="n7_aojv" name="descTxt" xy="531,361" pivot="0.5,0" size="858,35" font="ui://5rz4pvnzneka8" fontSize="25" color="#b59e7b" align="center" autoSize="shrink" text="参酒葫芦使用次数永久+1">
@@ -36,6 +36,9 @@
     <loader id="n10_aojv" name="iconLoader" xy="895,145" size="130,130" url="ui://j2wnr1cqkc331" fill="scale">
       <relation target="n9_aojv" sidePair="center-center,middle-middle"/>
     </loader>
+    <text id="n12_cx2u" name="numTxt" xy="1004,239" pivot="1,1" size="18,35" visible="false" fontSize="25" color="#ffffff" text="5">
+      <relation target="n9_aojv" sidePair="right-right,bottom-bottom"/>
+    </text>
   </displayList>
   <transition name="enter">
     <item time="0" type="Alpha" target="n10_aojv" value="0"/>

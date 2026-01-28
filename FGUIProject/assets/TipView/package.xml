@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <packageDescription id="ec3ubw4g">
   <resources>
-    <component id="aojv0" name="GetIemBigView.xml" path="/Component/" exported="true"/>
+    <component id="aojv0" name="GetItemBigView.xml" path="/Component/" exported="true"/>
     <image id="aojv1" name="getItemTipBG1.png" path="/Res/"/>
   </resources>
   <publish name=""/>
