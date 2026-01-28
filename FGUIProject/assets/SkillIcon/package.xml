@@ -6,9 +6,11 @@
     <image id="c4i13" name="skill_fireBall_big.png" path="/Res/" exported="true"/>
     <image id="c4i16" name="skill_defence.png" path="/Res/" exported="true"/>
     <image id="c4i17" name="skill_defenceUp.png" path="/Res/" exported="true"/>
-    <image id="c4i18" name="skill_attackUp.png" path="/Res/" exported="true"/>
     <image id="ou6pa" name="buff_defence.png" path="/Res/" exported="true"/>
     <image id="ou6pb" name="buff_attack.png" path="/Res/" exported="true"/>
+    <image id="ib0bc" name="skill_attackUp3.png" path="/Res/"/>
+    <image id="ib0bd" name="skill_attackUp1.png" path="/Res/"/>
+    <image id="ib0be" name="skill_attackUp2.png" path="/Res/"/>
   </resources>
   <publish name=""/>
 </packageDescription>

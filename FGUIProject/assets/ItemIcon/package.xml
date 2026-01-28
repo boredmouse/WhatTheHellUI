@@ -10,6 +10,11 @@
     <image id="87377" name="sword_default.png" path="/Res/" exported="true"/>
     <image id="cx2u8" name="zhijuzi.png" path="/Res/" exported="true"/>
     <image id="cx2u9" name="book_fireBall.png" path="/Res/" exported="true"/>
+    <image id="ib0ba" name="book_defenseUp1.png" path="/Res/" exported="true"/>
+    <image id="ib0bb" name="book_fireBallBig.png" path="/Res/" exported="true"/>
+    <image id="ib0bc" name="book_attackUp1.png" path="/Res/" exported="true"/>
+    <image id="ib0bd" name="book_attackUp2.png" path="/Res/" exported="true"/>
+    <image id="ib0be" name="book_attackUp3.png" path="/Res/" exported="true"/>
   </resources>
   <publish name=""/>
 </packageDescription>
