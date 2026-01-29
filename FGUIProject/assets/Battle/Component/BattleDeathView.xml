@@ -24,10 +24,10 @@
     <text id="n7_q2wk" name="n7" xy="888,484" size="161,142" font="ui://5rz4pvnznekar" fontSize="106" color="#ece4d6" align="center" leading="-27" autoSize="none" shadowColor="#000000" shadowOffset="8,6" text="散">
       <relation target="" sidePair="center-center,middle-middle"/>
     </text>
-    <text id="n9_q2wk" name="deathTxt" xy="923,819" pivot="0.5,0.5" size="74,48" font="ui://5rz4pvnzneka8" fontSize="35" color="#ece4d6" align="center" leading="-27" text="死亡">
+    <text id="n9_q2wk" name="deathTxt" xy="923,819" pivot="0.5,0.5" size="74,48" font="ui://5rz4pvnzneka8" fontSize="35" color="#ece4d6" align="center" leading="-27" text="失败">
       <relation target="" sidePair="center-center,middle-middle"/>
     </text>
-    <graph id="n10_q2wk" name="n10" xy="959,871" pivot="0.5,0.5" anchor="true" size="474,2" type="rect" lineSize="0"/>
+    <image id="n10_q2wk" name="n10" src="q1de24" fileName="Res/line_long.png" pkg="5rz4pvnz" xy="959,871" pivot="0.5,0.5" anchor="true" size="474,14"/>
   </displayList>
   <transition name="enter" autoPlay="true">
     <item time="0" type="Alpha" target="n0_q2wk" tween="true" startValue="1" endValue="0.38" duration="6"/>

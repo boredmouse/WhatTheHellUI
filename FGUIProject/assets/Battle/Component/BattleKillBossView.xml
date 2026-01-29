@@ -15,17 +15,17 @@
     </image>
     <image id="n4_gi2c" name="1" src="gi2c2g" fileName="Res/BossDie/blood2.png" xy="367,96" pivot="0.764,0.666" alpha="0.553" color="#000000">
       <gearXY controller="direction" pages="1" values="551,96" default="367,96"/>
-      <gearSize controller="direction" pages="1" values="656,678,-1,1" default="656,678,1,1"/>
+      <gearSize controller="direction" pages="0,1" values="656,678,1,1|656,678,-1,1"/>
       <relation target="" sidePair="center-center,middle-middle"/>
     </image>
     <image id="n5_gi2c" name="3" src="gi2c2f" fileName="Res/BossDie/blood1.png" xy="81,139" pivot="0.816,0.667" color="#000000">
       <gearXY controller="direction" pages="1" values="278,139" default="81,139"/>
-      <gearSize controller="direction" pages="1" values="956,617,-1,1" default="956,617,1,1"/>
+      <gearSize controller="direction" pages="0,1" values="956,617,1,1|956,617,-1,1"/>
       <relation target="" sidePair="center-center,middle-middle"/>
     </image>
     <image id="n8_gi2c" name="2" src="gi2c2j" fileName="Res/BossDie/blood3.png" xy="62,27" pivot="0.981,0.752" alpha="0.5" color="#000000">
       <gearXY controller="direction" pages="1" values="-32,27" default="62,27"/>
-      <gearSize controller="direction" pages="1" values="963,864,-1,1" default="963,864,1,1"/>
+      <gearSize controller="direction" pages="0,1" values="963,864,1,1|963,864,-1,1"/>
       <relation target="" sidePair="center-center,middle-middle"/>
     </image>
     <graph id="n6_gi2c" name="n6" xy="0,0" pivot="0.5,0" size="1920,100" type="rect" lineSize="0" fillColor="#ff000000">
@@ -34,23 +34,31 @@
     <graph id="n7_gi2c" name="n7" xy="-1,980" pivot="0.5,1" size="1920,100" type="rect" lineSize="0" fillColor="#ff000000">
       <relation target="" sidePair="width-width,bottom-bottom"/>
     </graph>
-    <loader id="n9_gi2c" name="iconLoader" xy="959,630" pivot="0.5,0.5" anchor="true" size="459,588" url="ui://68x10utggi2c2e" fill="scale" color="#000000" clearOnPublish="true">
+    <loader id="n9_gi2c" name="iconLoader" xy="959,603" pivot="0.5,0.5" anchor="true" size="459,588" url="ui://68x10utggi2c2e" fill="scale" color="#000000" clearOnPublish="true">
       <relation target="" sidePair="center-center,middle-middle"/>
     </loader>
     <text id="n11_gi2c" name="nameTxt" xy="1222,363" pivot="0.5,0.5" anchor="true" size="39,48" font="ui://5rz4pvnzneka8" fontSize="35" color="#711212" autoSize="height" text="夕">
       <gearXY controller="direction" pages="0,1" values="1222,363|674,363"/>
       <relation target="" sidePair="center-center,middle-middle"/>
     </text>
+    <image id="n12_gi2c" name="n12" src="q1de24" fileName="Res/line_long.png" pkg="5rz4pvnz" xy="444,941" pivot="0.5,0" color="#ece4d6">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </image>
+    <text id="n13_gi2c" name="contentTxt" xy="900,899" pivot="0.5,1" size="119,48" font="ui://5rz4pvnzneka8" fontSize="35" color="#ece4d6" text="战胜 夕">
+      <relation target="" sidePair="center-center,bottom-bottom"/>
+    </text>
   </displayList>
   <transition name="left">
     <item time="0" type="Alpha" target="n0_gi2c" tween="true" startValue="0" endValue="1" duration="6"/>
     <item time="0" type="Alpha" target="n10_gi2c" value="0"/>
     <item time="0" type="Alpha" target="n11_gi2c" value="0"/>
+    <item time="0" type="Alpha" target="n13_gi2c" value="0"/>
     <item time="0" type="Alpha" target="n1_gi2c" value="0"/>
     <item time="0" type="Alpha" target="n4_gi2c" value="0"/>
     <item time="0" type="Alpha" target="n5_gi2c" value="0"/>
     <item time="0" type="Alpha" target="n8_gi2c" value="0.5"/>
     <item time="0" type="Alpha" target="n9_gi2c" tween="true" startValue="0" endValue="0" duration="3"/>
+    <item time="0" type="Scale" target="n12_gi2c" value="0,1"/>
     <item time="0" type="Scale" target="n1_gi2c" value="1,1"/>
     <item time="0" type="Scale" target="n4_gi2c" value="0.3,0.3"/>
     <item time="0" type="Scale" target="n5_gi2c" value="0,0"/>
@@ -68,18 +76,23 @@
     <item time="9" type="Scale" target="n8_gi2c" tween="true" startValue="0.5,0.5" endValue="1,1" duration="4"/>
     <item time="10" type="Alpha" target="n5_gi2c" tween="true" startValue="0" endValue="1" duration="4"/>
     <item time="10" type="Scale" target="n5_gi2c" tween="true" startValue="0.8,0.8" endValue="1,1" duration="4"/>
+    <item time="12" type="Alpha" target="n13_gi2c" tween="true" startValue="0" endValue="1" duration="6"/>
     <item time="12" type="Alpha" target="n4_gi2c" tween="true" startValue="1" endValue="0.5" duration="6"/>
+    <item time="12" type="Scale" target="n12_gi2c" tween="true" startValue="0.5,1" endValue="1,1" duration="6"/>
     <item time="13" type="Alpha" target="n8_gi2c" tween="true" startValue="1" endValue="0.5" duration="4"/>
   </transition>
   <transition name="right">
     <item time="0" type="Alpha" target="n0_gi2c" tween="true" startValue="0" endValue="1" duration="6"/>
     <item time="0" type="Alpha" target="n10_gi2c" value="0"/>
     <item time="0" type="Alpha" target="n11_gi2c" value="0"/>
+    <item time="0" type="Alpha" target="n13_gi2c" value="0"/>
     <item time="0" type="Alpha" target="n1_gi2c" value="0"/>
     <item time="0" type="Alpha" target="n4_gi2c" value="0"/>
     <item time="0" type="Alpha" target="n5_gi2c" value="0"/>
     <item time="0" type="Alpha" target="n8_gi2c" value="0.5"/>
     <item time="0" type="Alpha" target="n9_gi2c" tween="true" startValue="0" endValue="0" duration="3"/>
+    <item time="0" type="Scale" target="n12_gi2c" value="0,1"/>
+    <item time="0" type="Scale" target="n12_gi2c" value="0,1"/>
     <item time="0" type="Scale" target="n1_gi2c" value="1,1"/>
     <item time="0" type="Scale" target="n4_gi2c" value="-0.3,0.3"/>
     <item time="0" type="Scale" target="n5_gi2c" value="0,0"/>
@@ -97,7 +110,10 @@
     <item time="9" type="Scale" target="n8_gi2c" tween="true" startValue="-0.5,0.5" endValue="-1,1" duration="4"/>
     <item time="10" type="Alpha" target="n5_gi2c" tween="true" startValue="0" endValue="1" duration="4"/>
     <item time="10" type="Scale" target="n5_gi2c" tween="true" startValue="-0.8,0.8" endValue="-1,1" duration="4"/>
+    <item time="12" type="Alpha" target="n13_gi2c" tween="true" startValue="0" endValue="1" duration="6"/>
     <item time="12" type="Alpha" target="n4_gi2c" tween="true" startValue="1" endValue="0.5" duration="6"/>
+    <item time="12" type="Scale" target="n12_gi2c" tween="true" startValue="0.5,1" endValue="1,1" duration="6"/>
     <item time="13" type="Alpha" target="n8_gi2c" tween="true" startValue="1" endValue="0.5" duration="4"/>
+    <item time="18" type="Alpha" target="n13_gi2c" value="1"/>
   </transition>
 </component>
