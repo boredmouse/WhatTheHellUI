@@ -72,6 +72,8 @@
     <image id="gi2c2h" name="Du.png" path="/Res/BossDie/"/>
     <component id="gi2c2i" name="BattleKillBossView.xml" path="/Component/" exported="true"/>
     <image id="gi2c2j" name="blood3.png" path="/Res/BossDie/"/>
+    <image id="gi2c2k" name="nameBG.png" path="/Res/BossDie/" scale="9grid" scale9grid="20,32,35,104"/>
+    <image id="gi2c2l" name="nameBG2.png" path="/Res/BossDie/" scale="9grid" scale9grid="21,28,30,112"/>
   </resources>
   <publish name=""/>
 </packageDescription>
