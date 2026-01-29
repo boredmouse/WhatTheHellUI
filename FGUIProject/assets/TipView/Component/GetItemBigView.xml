@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="1920,1080" designImage="ui://68x10utgwa5129" designImageAlpha="97">
-  <controller name="quality" pages="1,,2,,3,,4,,5," selected="4"/>
+  <controller name="quality" pages="1,,2,,3,,4,,5," selected="0"/>
   <displayList>
-    <image id="n0_aojv" name="n0" src="hlmx0" fileName="Res/guodu.png" pkg="5rz4pvnz" xy="484,225" pivot="0.5,0" size="952,200">
-      <relation target="" sidePair="center-center,top-top"/>
+    <image id="n0_aojv" name="n0" src="hlmx0" fileName="Res/guodu.png" pkg="5rz4pvnz" xy="484,225" pivot="0.5,0" size="952,233">
+      <relation target="n7_aojv" sidePair="top-top,bottomext-bottom"/>
     </image>
-    <image id="n3_aojv" name="n3" src="hlmx0" fileName="Res/guodu.png" pkg="5rz4pvnz" xy="817,425" size="286,67">
+    <image id="n3_aojv" name="n3" src="hlmx0" fileName="Res/guodu.png" pkg="5rz4pvnz" xy="817,458" size="286,67">
       <relation target="n4_aojv" sidePair="width-width,center-center,middle-middle"/>
     </image>
-    <image id="n2_aojv" name="n2" src="q1de24" fileName="Res/line_long.png" pkg="5rz4pvnz" xy="460,415" pivot="0.5,0" size="1000,21" color="#d6d3c5">
+    <image id="n2_aojv" name="n2" src="q1de24" fileName="Res/line_long.png" pkg="5rz4pvnz" xy="460,448" pivot="0.5,0" size="1000,21" color="#d6d3c5">
       <relation target="n0_aojv" sidePair="center-center,top-bottom"/>
     </image>
     <graph id="n9_aojv" name="n9" xy="895,146" size="130,130" type="rect" fillColor="#ff000000">
-      <relation target="n0_aojv" sidePair="center-center,top-top"/>
+      <relation target="" sidePair="center-center,top-top"/>
     </graph>
-    <image id="n5_aojv" name="n5" src="q1de24" fileName="Res/line_long.png" pkg="5rz4pvnz" xy="798,481" size="324,21" color="#d6d3c5">
+    <image id="n5_aojv" name="n5" src="q1de24" fileName="Res/line_long.png" pkg="5rz4pvnz" xy="798,514" size="324,21" color="#d6d3c5">
       <relation target="n3_aojv" sidePair="width-width,center-center,top-bottom"/>
     </image>
-    <image id="n14_cx2u" name="n14" src="cx2u29" fileName="Res/baseItemQualityBG2.png" pkg="5rz4pvnz" xy="894,146" size="130,130" alpha="0.68" color="#9c4b00">
+    <image id="n14_cx2u" name="n14" src="cx2u29" fileName="Res/baseItemQualityBG2.png" pkg="5rz4pvnz" xy="894,146" size="130,130" alpha="0.68" color="#666666">
       <gearColor controller="quality" pages="1,2,3,4,5" values="#666666|#009600|#2888ff|#b400ed|#9c4b00"/>
       <relation target="n9_aojv" sidePair="center-center,middle-middle"/>
     </image>
     <image id="n8_aojv" name="n8" src="aojv1" fileName="Res/getItemTipBG1.png" xy="461,129" pivot="0.5,0" color="#d6d3c5">
       <relation target="n9_aojv" sidePair="center-center,middle-middle"/>
     </image>
-    <text id="n4_aojv" name="closeTxt" xy="897,439" pivot="0.5,0" size="125,35" font="ui://5rz4pvnzneka8" fontSize="25" color="#deddd3" text="space 关闭">
+    <text id="n4_aojv" name="closeTxt" xy="897,472" pivot="0.5,0" size="125,35" font="ui://5rz4pvnzneka8" fontSize="25" color="#deddd3" text="space 关闭">
       <relation target="n0_aojv" sidePair="center-center,top-bottom"/>
     </text>
     <text id="n6_aojv" name="nameTxt" xy="910,300" pivot="0.5,0" size="100,44" font="ui://5rz4pvnzneka8" fontSize="32" color="#deddd3" autoClearText="true" text="万寿果">
-      <relation target="n0_aojv" sidePair="center-center,top-bottom"/>
+      <relation target="n9_aojv" sidePair="center-center,top-bottom"/>
     </text>
-    <text id="n7_aojv" name="descTxt" xy="531,361" pivot="0.5,0" size="858,35" font="ui://5rz4pvnzneka8" fontSize="25" color="#b59e7b" align="center" autoSize="shrink" autoClearText="true" text="参酒葫芦使用次数永久+1">
-      <relation target="n0_aojv" sidePair="center-center,top-bottom"/>
+    <text id="n7_aojv" name="descTxt" xy="560,361" pivot="0.5,0" size="800,68" font="ui://5rz4pvnzneka8" fontSize="25" color="#b59e7b" align="center" autoSize="height" autoClearText="true" text="这村子进来了就再也不让出去，每年还有人被掳走，&#xA;我造了什么孽呀，好不容易从炼狱逃出来，却逃到这鬼地方！">
+      <relation target="n9_aojv" sidePair="center-center,top-bottom"/>
     </text>
-    <loader id="n10_aojv" name="iconLoader" xy="895,145" size="130,130" url="ui://j2wnr1cqcx2u9" fill="scale" clearOnPublish="true">
+    <loader id="n10_aojv" name="iconLoader" xy="895,145" size="130,130" url="ui://j2wnr1cqib0bf" fill="scale" clearOnPublish="true">
       <relation target="n9_aojv" sidePair="center-center,middle-middle"/>
     </loader>
     <text id="n12_cx2u" name="numTxt" xy="1004,239" pivot="1,1" size="18,35" visible="false" fontSize="25" color="#ffffff" autoClearText="true" text="5">
