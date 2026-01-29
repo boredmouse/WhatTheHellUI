@@ -66,6 +66,12 @@
     <image id="wa5129" name="微信图片_2025-08-13_101352_519.png" path="/Res/"/>
     <image id="wa512b" name="dialogAnjiao.png" path="/Res/"/>
     <image id="ccgx2d" name="dialogBG6.png" path="/Res/"/>
+    <image id="gi2c2e" name="diePic_Xi.png" path="/Res/BossDie/" exported="true"/>
+    <image id="gi2c2f" name="blood1.png" path="/Res/BossDie/"/>
+    <image id="gi2c2g" name="blood2.png" path="/Res/BossDie/"/>
+    <image id="gi2c2h" name="Du.png" path="/Res/BossDie/"/>
+    <component id="gi2c2i" name="BattleKillBossView.xml" path="/Component/" exported="true"/>
+    <image id="gi2c2j" name="blood3.png" path="/Res/BossDie/"/>
   </resources>
   <publish name=""/>
 </packageDescription>
